@@ -1,0 +1,7 @@
+name = "valorant-api"
+type = "module"
+main = "src/index.ts"
+
+account_id = ""
+workers_dev = true
+compatibility_date = "2025-04-23"
