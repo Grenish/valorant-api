@@ -19,6 +19,12 @@ app.get('/api/hello', (c) => c.json({
   version: '1.0.0' 
 }));
 
+app.get('/api/ping', (c) => c.json({ 
+  message: 'Pong!',
+  status: 'online',
+  version: '1.0.0' 
+}));
+
 app.get('/api/agents', getAllAgents);
 app.get('/api/agents/:name', getAgentByName);
 app.get('/api/agent/id/:id', getAgentById);
