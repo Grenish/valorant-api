@@ -137,6 +137,181 @@ Content-Type: application/json
 }
 ```
 
+### Get Agent by ID
+
+```
+GET /api/agent/id/:id
+```
+
+Retrieves information about a specific agent by their unique ID.
+
+**Parameters**
+
+| Name | Required | Description |
+|------|----------|-------------|
+| id   | Yes      | The numeric ID of the agent to retrieve |
+
+**Example Request**
+
+```
+GET /api/agent/id/1
+```
+
+**Success Response**
+
+```json
+Status: 200 OK
+Content-Type: application/json
+
+{
+  "agent_id": 1,
+  "name": "Brimstone",
+  "role": "Controller",
+  // Additional agent information...
+}
+```
+
+**Error Response**
+
+```json
+Status: 404 Not Found
+Content-Type: application/json
+
+{
+  "error": "Agent not found"
+}
+```
+
+### Get Agent Profile Image by Name
+
+```
+GET /api/agents/:name/profile-image
+```
+
+Retrieves the profile image URL for a specific agent by name.
+
+**Parameters**
+
+| Name | Required | Description |
+|------|----------|-------------|
+| name | Yes      | The name of the agent (case-insensitive) |
+
+**Example Request**
+
+```
+GET /api/agents/viper/profile-image
+```
+
+**Success Response**
+
+```json
+Status: 200 OK
+Content-Type: application/json
+
+{
+  "name": "Viper",
+  "profile_image": "https://res.cloudinary.com/..."
+}
+```
+
+### Get Agent Profile Icon by Name
+
+```
+GET /api/agents/:name/profile-icon
+```
+
+Retrieves the profile icon URL for a specific agent by name.
+
+**Parameters**
+
+| Name | Required | Description |
+|------|----------|-------------|
+| name | Yes      | The name of the agent (case-insensitive) |
+
+**Example Request**
+
+```
+GET /api/agents/jett/profile-icon
+```
+
+**Success Response**
+
+```json
+Status: 200 OK
+Content-Type: application/json
+
+{
+  "name": "Jett",
+  "profile_icon": "https://res.cloudinary.com/..."
+}
+```
+
+### Get Agent Profile Image by ID
+
+```
+GET /api/agent/id/:id/profile-image
+```
+
+Retrieves the profile image URL for a specific agent by ID.
+
+**Parameters**
+
+| Name | Required | Description |
+|------|----------|-------------|
+| id   | Yes      | The numeric ID of the agent |
+
+**Example Request**
+
+```
+GET /api/agent/id/3/profile-image
+```
+
+**Success Response**
+
+```json
+Status: 200 OK
+Content-Type: application/json
+
+{
+  "agent_id": 3,
+  "name": "Sage",
+  "profile_image": "https://res.cloudinary.com/..."
+}
+```
+
+### Get Agent Profile Icon by ID
+
+```
+GET /api/agent/id/:id/profile-icon
+```
+
+Retrieves the profile icon URL for a specific agent by ID.
+
+**Parameters**
+
+| Name | Required | Description |
+|------|----------|-------------|
+| id   | Yes      | The numeric ID of the agent |
+
+**Example Request**
+
+```
+GET /api/agent/id/5/profile-icon
+```
+
+**Success Response**
+
+```json
+Status: 200 OK
+Content-Type: application/json
+
+{
+  "agent_id": 5,
+  "name": "Phoenix",
+  "profile_icon": "https://res.cloudinary.com/..."
+}
+```
+
 ## Error Handling
 
 The API uses standard HTTP status codes to indicate the success or failure of requests:
