@@ -26,5 +26,4 @@ yarn-error.log*
 Thumbs.db
 
 # Custom artifacts
-valorant-agent.json
-valorant-agents-v1.json
+valorant-agent*.json
