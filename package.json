@@ -6,6 +6,7 @@
     "@cloudflare/workers-types": "^4.20250423.0"
   },
   "scripts": {
-    "dev": "bunx wrangler dev"
+    "dev": "bunx wrangler dev",
+    "build": "bunx wrangler build"
   }
 }
