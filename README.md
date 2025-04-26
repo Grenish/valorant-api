@@ -353,3 +353,57 @@ Error responses will include a JSON object with an `error` property that provide
 | category    | string | Type of ability (Basic, Signature, Ultimate) |
 | price       | number | In-game cost to purchase (if applicable) |
 | points      | number | Ultimate points required (for ultimate abilities) |
+
+## Development Setup
+
+### Prerequisites
+- Node.js v16+ or Bun runtime
+- Supabase account
+
+### Setting up Supabase
+1. Create a new project in [Supabase](https://supabase.io)
+2. Run the schema.sql script in Supabase SQL Editor:
+   ```sql
+   -- Create agents table with JSON storage for nested data
+   CREATE TABLE agents (
+     agent_id INTEGER PRIMARY KEY,
+     name TEXT NOT NULL,
+     role TEXT NOT NULL,
+     role_icon TEXT NOT NULL,
+     origin TEXT NOT NULL,
+     release_patch TEXT NOT NULL,
+     profile_icon TEXT NOT NULL,
+     profile_image TEXT NOT NULL,
+     abilities JSONB NOT NULL,
+     gallery JSONB NOT NULL,
+     story JSONB NOT NULL
+   );
+
+   -- Create indexes for common search queries
+   CREATE INDEX idx_agent_name ON agents(name);
+   CREATE INDEX idx_agent_role ON agents(role);
+   CREATE INDEX idx_agent_origin ON agents(origin);
+   ```
+
+3. Copy your Supabase URL and anon key from the API settings
+4. Create a `.env` file based on `.env.example` with your Supabase credentials:
+   ```
+   SUPABASE_URL=your-supabase-project-url
+   SUPABASE_ANON_KEY=your-supabase-anon-key
+   ```
+
+5. Run the upload script to populate the database:
+   ```
+   bun run scripts/uploadAgentsToSupabase.ts
+   ```
+
+### Installation
+1. Clone the repository
+2. Install dependencies:
+   ```
+   bun install
+   ```
+3. Start the development server:
+   ```
+   bun run dev
+   ```

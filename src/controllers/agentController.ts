@@ -1,16 +1,19 @@
 import { Context } from 'hono';
-import agentsData from '../../valorant-agent.json';
-import type { Agent, AgentsData } from '../types/agent';
-
-// Type assertion to ensure agentsData has the correct structure
-const typedAgentsData = agentsData as AgentsData;
+import type { Agent } from '../types/agent';
+import { supabase } from '../lib/supabase';
 
 /**
  * Get all Valorant agents
  */
-export const getAllAgents = (c: Context): Response => {
+export const getAllAgents = async (c: Context): Promise<Response> => {
   try {
-    return c.json(typedAgentsData.agents);
+    const { data: agents, error } = await supabase
+      .from('agents')
+      .select('*');
+    
+    if (error) throw error;
+    
+    return c.json(agents);
   } catch (error) {
     console.error('Error fetching agents:', error);
     return c.json({ error: 'Failed to fetch agents' }, 500);
@@ -20,7 +23,7 @@ export const getAllAgents = (c: Context): Response => {
 /**
  * Get a specific Valorant agent by name
  */
-export const getAgentByName = (c: Context): Response => {
+export const getAgentByName = async (c: Context): Promise<Response> => {
   try {
     const name = c.req.param('name');
     
@@ -28,11 +31,13 @@ export const getAgentByName = (c: Context): Response => {
       return c.json({ error: 'Agent name is required' }, 400);
     }
     
-    const agent = typedAgentsData.agents.find(
-      (agent: Agent) => agent.name.toLowerCase() === name.toLowerCase()
-    );
-
-    if (!agent) {
+    const { data: agent, error } = await supabase
+      .from('agents')
+      .select('*')
+      .ilike('name', name)
+      .single();
+    
+    if (error) {
       return c.json({ error: 'Agent not found' }, 404);
     }
 
@@ -46,7 +51,7 @@ export const getAgentByName = (c: Context): Response => {
 /**
  * Get a specific Valorant agent by ID
  */
-export const getAgentById = (c: Context): Response => {
+export const getAgentById = async (c: Context): Promise<Response> => {
   try {
     const id = c.req.param('id');
     
@@ -62,11 +67,13 @@ export const getAgentById = (c: Context): Response => {
       return c.json({ error: 'Invalid agent ID format' }, 400);
     }
     
-    const agent = typedAgentsData.agents.find(
-      (agent: Agent) => agent.agent_id === agentId
-    );
-
-    if (!agent) {
+    const { data: agent, error } = await supabase
+      .from('agents')
+      .select('*')
+      .eq('agent_id', agentId)
+      .single();
+    
+    if (error) {
       return c.json({ error: 'Agent not found' }, 404);
     }
 
@@ -80,7 +87,7 @@ export const getAgentById = (c: Context): Response => {
 /**
  * Get an agent's profile image by name
  */
-export const getAgentProfileImageByName = (c: Context): Response => {
+export const getAgentProfileImageByName = async (c: Context): Promise<Response> => {
   try {
     const name = c.req.param('name');
     
@@ -88,11 +95,13 @@ export const getAgentProfileImageByName = (c: Context): Response => {
       return c.json({ error: 'Agent name is required' }, 400);
     }
     
-    const agent = typedAgentsData.agents.find(
-      (agent: Agent) => agent.name.toLowerCase() === name.toLowerCase()
-    );
-
-    if (!agent) {
+    const { data: agent, error } = await supabase
+      .from('agents')
+      .select('name, profile_image')
+      .ilike('name', name)
+      .single();
+    
+    if (error) {
       return c.json({ error: 'Agent not found' }, 404);
     }
 
@@ -109,7 +118,7 @@ export const getAgentProfileImageByName = (c: Context): Response => {
 /**
  * Get an agent's profile icon by name
  */
-export const getAgentProfileIconByName = (c: Context): Response => {
+export const getAgentProfileIconByName = async (c: Context): Promise<Response> => {
   try {
     const name = c.req.param('name');
     
@@ -117,11 +126,13 @@ export const getAgentProfileIconByName = (c: Context): Response => {
       return c.json({ error: 'Agent name is required' }, 400);
     }
     
-    const agent = typedAgentsData.agents.find(
-      (agent: Agent) => agent.name.toLowerCase() === name.toLowerCase()
-    );
-
-    if (!agent) {
+    const { data: agent, error } = await supabase
+      .from('agents')
+      .select('name, profile_icon')
+      .ilike('name', name)
+      .single();
+    
+    if (error) {
       return c.json({ error: 'Agent not found' }, 404);
     }
 
@@ -138,7 +149,7 @@ export const getAgentProfileIconByName = (c: Context): Response => {
 /**
  * Get an agent's profile image by ID
  */
-export const getAgentProfileImageById = (c: Context): Response => {
+export const getAgentProfileImageById = async (c: Context): Promise<Response> => {
   try {
     const id = c.req.param('id');
     
@@ -152,11 +163,13 @@ export const getAgentProfileImageById = (c: Context): Response => {
       return c.json({ error: 'Invalid agent ID format' }, 400);
     }
     
-    const agent = typedAgentsData.agents.find(
-      (agent: Agent) => agent.agent_id === agentId
-    );
-
-    if (!agent) {
+    const { data: agent, error } = await supabase
+      .from('agents')
+      .select('agent_id, name, profile_image')
+      .eq('agent_id', agentId)
+      .single();
+    
+    if (error) {
       return c.json({ error: 'Agent not found' }, 404);
     }
 
@@ -174,7 +187,7 @@ export const getAgentProfileImageById = (c: Context): Response => {
 /**
  * Get an agent's profile icon by ID
  */
-export const getAgentProfileIconById = (c: Context): Response => {
+export const getAgentProfileIconById = async (c: Context): Promise<Response> => {
   try {
     const id = c.req.param('id');
     
@@ -188,11 +201,13 @@ export const getAgentProfileIconById = (c: Context): Response => {
       return c.json({ error: 'Invalid agent ID format' }, 400);
     }
     
-    const agent = typedAgentsData.agents.find(
-      (agent: Agent) => agent.agent_id === agentId
-    );
-
-    if (!agent) {
+    const { data: agent, error } = await supabase
+      .from('agents')
+      .select('agent_id, name, profile_icon')
+      .eq('agent_id', agentId)
+      .single();
+    
+    if (error) {
       return c.json({ error: 'Agent not found' }, 404);
     }
 

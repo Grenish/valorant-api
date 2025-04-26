@@ -1,12 +1,16 @@
 {
   "dependencies": {
+    "@supabase/supabase-js": "^2.49.4",
+    "dotenv": "^16.4.5",
     "hono": "^4.7.7"
   },
   "devDependencies": {
     "@cloudflare/workers-types": "^4.20250423.0"
   },
   "scripts": {
-    "dev": "bunx wrangler dev",
-    "build": "bunx wrangler build"
+    "dev": "bunx wrangler dev src/index.ts",
+    "build": "bunx wrangler build",
+    "upload-agents": "bun run scripts/uploadAgentsToSupabase.ts",
+    "check-supabase": "bun run scripts/checkSupabaseConnection.ts"
   }
 }
