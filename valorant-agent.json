@@ -1,0 +1,2502 @@
+{
+  "agents": [
+    {
+      "agent_id": 1,
+      "name": "Brimstone",
+      "role": "Controller",
+      "role_icon": "https://res.cloudinary.com/dwgsvtusk/image/upload/v1736895961/Controller_c4awhk.png",
+      "abilities": [
+        {
+          "icon": "https://res.cloudinary.com/dwgsvtusk/image/upload/v1736895852/Incendiary_ezcisw.png",
+          "name": "Incendiary",
+          "description": "Launch a grenade that deploys a damaging field of fire.",
+          "category": "Basic",
+          "price": 250
+        },
+        {
+          "icon": "https://res.cloudinary.com/dwgsvtusk/image/upload/v1736895854/Stim_Beacon_air57h.png",
+          "name": "Stim Beacon",
+          "description": "Target a nearby location to call in a Stim Beacon, granting all players in its radius rapid fire.",
+          "category": "Basic",
+          "price": 200
+        },
+        {
+          "icon": "https://res.cloudinary.com/dwgsvtusk/image/upload/v1736895853/Sky_Smoke_bzcznx.png",
+          "name": "Sky Smoke",
+          "description": "Use your map to call in orbital deployment smokescreens that obscure vision.",
+          "category": "Signature",
+          "price": 100
+        },
+        {
+          "icon": "https://res.cloudinary.com/dwgsvtusk/image/upload/v1736895853/Orbital_Strike_tlnsim.png",
+          "name": "Orbital Strike",
+          "description": "Use your map to target a location, launching a devastating orbital strike.",
+          "category": "Ultimate",
+          "points": 8
+        }
+      ],
+      "origin": "USA",
+      "release_patch": "Beta",
+      "profile_icon": "https://res.cloudinary.com/dwgsvtusk/image/upload/v1736895855/Property_1_Brimstone_ltq5qx.png",
+      "profile_image": "https://res.cloudinary.com/dwgsvtusk/image/upload/v1736895854/Brimstone_p5aran.png",
+      "gallery": [],
+      "story": {
+        "agent": "Brimstone",
+        "origin": "USA",
+        "background": {
+          "formerProfession": "Firefighter",
+          "militaryService": "U.S. Special Forces",
+          "corporateService": "Kingdom Corporation - K-SEC",
+          "keyRelationships": [
+            {
+              "name": "Tariq Porter",
+              "relationship": "Childhood friend and comrade",
+              "impact": "Motivated Brimstone's commitment to team and duty"
+            }
+          ]
+        },
+        "valiantProtocol": {
+          "role": "Founder and Commander",
+          "coFounders": [
+            "Sabine Callas (Viper)",
+            "Klara Böhringer (Killjoy)",
+            "Omen"
+          ],
+          "leadershipStyle": "Unity through adaptability and teamwork",
+          "notableEvent": "Reorganized protocol after the Venice mission failure"
+        },
+        "conflicts": [
+          {
+            "name": "Landfall Project",
+            "location": "Los Angeles",
+            "threat": "Radivore invasion via interdimensional portal",
+            "opposingForce": "Kingdom Corporation",
+            "actionTaken": "Led a mission to shut it down"
+          }
+        ],
+        "currentRole": {
+          "position": "Field Commander",
+          "duties": [
+            "Leads strike teams",
+            "Coordinates operations",
+            "Mentors new agents"
+          ]
+        },
+        "traits": {
+          "strengths": [
+            "Strategic",
+            "Disciplined",
+            "Protective",
+            "Experienced"
+          ],
+          "values": ["Teamwork", "Duty", "Sacrifice"]
+        },
+        "orbitalArsenal": "Used for battlefield control and team support",
+        "summary": "Brimstone is a battle-hardened leader shaped by loss, loyalty, and a lifelong dedication to protecting others. His tactical mind and unwavering integrity make him a cornerstone of the VALORANT Protocol."
+      }
+    },
+    {
+      "agent_id": 2,
+      "name": "Viper",
+      "role": "Controller",
+      "role_icon": "https://res.cloudinary.com/dwgsvtusk/image/upload/v1736895961/Controller_c4awhk.png",
+      "abilities": [
+        {
+          "icon": "https://res.cloudinary.com/dwgsvtusk/image/upload/v1736895879/Snakebite_qe9aop.png",
+          "name": "Snake Bite",
+          "description": "EQUIP a chemical launcher. FIRE to launch a canister that shatters upon hitting the floor, creating a lingering chemical zone that damages and applies Vulnerable to enemies.",
+          "category": "Basic",
+          "price": 300
+        },
+        {
+          "icon": "https://res.cloudinary.com/dwgsvtusk/image/upload/v1736895878/Poison_Cloud_avfri8.png",
+          "name": "Poison Cloud",
+          "description": "EQUIP a gas emitter. FIRE to throw the emitter that perpetually remains throughout the round. RE-USE the ability to create a toxic gas cloud at the cost of fuel. This ability can be picked up to be redeployed.",
+          "category": "Basic",
+          "price": 200
+        },
+        {
+          "icon": "https://res.cloudinary.com/dwgsvtusk/image/upload/v1736895879/Toxic_Screen_uvod9l.png",
+          "name": "Toxic Screen",
+          "description": "EQUIP a gas emitter launcher. FIRE to deploy a long line of gas emitters. RE-USE the ability to create a tall wall of toxic gas at the cost of fuel.",
+          "category": "Signature",
+          "price": 0
+        },
+        {
+          "icon": "https://res.cloudinary.com/dwgsvtusk/image/upload/v1736895879/Viper_s_Pit_blg958.png",
+          "name": "Viper's Pit",
+          "description": "EQUIP a chemical sprayer. FIRE to spray a massive cloud in all directions around Viper, creating a large cloud that reduces the vision range and maximum health of enemies inside of it.",
+          "category": "Ultimate",
+          "points": 9
+        }
+      ],
+      "origin": "USA",
+      "release_patch": "Beta",
+      "profile_icon": "https://res.cloudinary.com/dwgsvtusk/image/upload/v1736895879/Viper-headshot_odqqjs.png",
+      "profile_image": "https://res.cloudinary.com/dwgsvtusk/image/upload/v1736708246/Viper_gyqkfx.png",
+      "gallery": [],
+      "story": {
+        "agent": "Viper",
+        "origin": "USA",
+        "background": {
+          "formerProfession": "Chemist",
+          "militaryService": "N/A",
+          "corporateService": "Kingdom Corporation",
+          "keyRelationships": [
+            {
+              "name": "Brimstone",
+              "relationship": "Co-founder of the VALORANT Protocol",
+              "impact": "Shared leadership responsibilities and strategic planning"
+            },
+            {
+              "name": "Omen",
+              "relationship": "Former acquaintance from Kingdom Corporation",
+              "impact": "Unclear past connection, maintains distance"
+            }
+          ]
+        },
+        "valiantProtocol": {
+          "role": "Co-founder and Specialist",
+          "coFounders": ["Brimstone", "Klara Böhringer (Killjoy)", "Omen"],
+          "leadershipStyle": "Precision and control through chemical warfare",
+          "notableEvent": "Defended an entire district during a Radivore invasion"
+        },
+        "conflicts": [
+          {
+            "name": "Toxic Crisis",
+            "location": "Houston",
+            "threat": "Toxic gas leak caused by Kingdom Corporation experiments",
+            "opposingForce": "Kingdom Corporation",
+            "actionTaken": "Designed a system to contain and eliminate the toxic gas leak"
+          }
+        ],
+        "currentRole": {
+          "position": "Chemical Warfare Specialist",
+          "duties": [
+            "Deploys toxic screens",
+            "Uses chemical warfare tactics to control enemies",
+            "Advises on battlefield containment strategies"
+          ]
+        },
+        "traits": {
+          "strengths": ["Tactical", "Precise", "Resilient", "Calculating"],
+          "values": ["Control", "Efficiency", "Sacrifice"]
+        },
+        "toxicArsenal": "Uses chemical-based weapons to disorient and eliminate enemies",
+        "summary": "Viper is a brilliant and calculated strategist, using her expertise in toxic warfare to control the battlefield and protect her team from the shadows."
+      }
+    },
+    {
+      "agent_id": 3,
+      "name": "Omen",
+      "role": "Controller",
+      "role_icon": "https://res.cloudinary.com/dwgsvtusk/image/upload/v1736895961/Controller_c4awhk.png",
+      "abilities": [
+        {
+          "icon": "https://res.cloudinary.com/dwgsvtusk/image/upload/v1736895870/Shrouded_Step_iflbxf.png",
+          "name": "Shrouded Step",
+          "description": "EQUIP a shadow walk ability and see its range indicator. FIRE to begin a brief channel, then teleport to the marked location.",
+          "category": "Basic",
+          "price": 100
+        },
+        {
+          "icon": "https://res.cloudinary.com/dwgsvtusk/image/upload/v1736895870/Paranoia_bqw5ri.png",
+          "name": "Paranoia",
+          "description": "INSTANTLY fire a shadow projectile forward, briefly reducing the vision range of all players it touches. This projectile can pass straight through walls.",
+          "category": "Basic",
+          "price": 250
+        },
+        {
+          "icon": "https://res.cloudinary.com/dwgsvtusk/image/upload/v1736895870/Dark_Cover_orozsh.png",
+          "name": "Dark Cover",
+          "description": "EQUIP a shadow orb and see its range indicator. FIRE to throw the shadow orb to the marked location, creating a long-lasting shadow sphere that blocks vision. HOLD ALTERNATE FIRE while targeting to move the marker further away. HOLD the ability key while targeting to move the marker closer.",
+          "category": "Signature",
+          "price": 150
+        },
+        {
+          "icon": "https://res.cloudinary.com/dwgsvtusk/image/upload/v1736895870/From_the_Shadows_tkwmp1.png",
+          "name": "From the Shadows",
+          "description": "EQUIP a tactical map. FIRE to begin teleporting to the selected location. While teleporting, Omen will appear as a Shade that can be destroyed by an enemy to cancel his teleport, or PRESS EQUIP for Omen to cancel his teleport.",
+          "category": "Ultimate",
+          "points": 7
+        }
+      ],
+      "origin": "Unknown",
+      "release_patch": "Beta",
+      "profile_icon": "https://res.cloudinary.com/dwgsvtusk/image/upload/v1736895870/Omen-headshot_tylqlq.png",
+      "profile_image": "https://res.cloudinary.com/dwgsvtusk/image/upload/v1736895871/Omen_ybnijx.png",
+      "gallery": [],
+      "story": {
+        "agent": "Omen",
+        "origin": "Unknown",
+        "background": {
+          "formerProfession": "Unknown",
+          "militaryService": "N/A",
+          "corporateService": "Kingdom Corporation (speculated)",
+          "keyRelationships": [
+            {
+              "name": "Viper",
+              "relationship": "Former acquaintance from Kingdom Corporation",
+              "impact": "Unclear past connection, maintains distance"
+            },
+            {
+              "name": "Sage",
+              "relationship": "Trusted ally",
+              "impact": "Sage provides emotional grounding for Omen's fractured identity"
+            }
+          ]
+        },
+        "valiantProtocol": {
+          "role": "Co-founder and Specialist",
+          "coFounders": ["Brimstone", "Viper", "Klara Böhringer (Killjoy)"],
+          "leadershipStyle": "Stealth and manipulation through shadow tactics",
+          "notableEvent": "Led a covert operation to disrupt enemy supply lines during a Radiant uprising"
+        },
+        "conflicts": [
+          {
+            "name": "Shadow Incident",
+            "location": "Unknown",
+            "threat": "Catastrophic experiment involving Radianite",
+            "opposingForce": "Unknown",
+            "actionTaken": "Survived a transformation that fragmented his identity"
+          }
+        ],
+        "currentRole": {
+          "position": "Shadow Operative",
+          "duties": [
+            "Deploys smokes to obscure enemy vision",
+            "Uses teleportation for tactical positioning",
+            "Disrupts enemies with paranoia-inducing abilities"
+          ]
+        },
+        "traits": {
+          "strengths": ["Stealthy", "Mysterious", "Adaptive", "Strategic"],
+          "values": ["Loyalty", "Redemption", "Control"]
+        },
+        "shadowAbilities": "Manipulates shadows and Radianite energy to disorient and outmaneuver enemies",
+        "summary": "Omen is an enigmatic figure whose mastery of shadows and stealth makes him a formidable controller, weaving through the battlefield to disrupt and dominate."
+      }
+    },
+    {
+      "agent_id": 4,
+      "name": "Killjoy",
+      "role": "Sentinel",
+      "role_icon": "https://res.cloudinary.com/dwgsvtusk/image/upload/v1736895962/Sentinel_daqzlf.png",
+      "abilities": [
+        {
+          "icon": "https://res.cloudinary.com/dwgsvtusk/image/upload/v1736895868/Nanoswarm_ztfukd.png",
+          "name": "Nanoswarm",
+          "description": "EQUIP a Nanoswarm grenade. FIRE to throw the grenade. Upon landing, the Nanoswarm goes covert. ACTIVATE the Nanoswarm to deploy a damaging swarm of nanobots.",
+          "category": "Basic",
+          "price": 200
+        },
+        {
+          "icon": "https://res.cloudinary.com/dwgsvtusk/image/upload/v1736895867/Alarmbot_hmrme7.png",
+          "name": "Alarmbot",
+          "description": "EQUIP a covert Alarmbot. FIRE to deploy a bot that hunts down enemies that get in range. After reaching its target, the bot explodes, applying Vulnerable. HOLD EQUIP to recall a deployed bot.",
+          "category": "Basic",
+          "price": 200
+        },
+        {
+          "icon": "https://res.cloudinary.com/dwgsvtusk/image/upload/v1736895868/Turret_kritb6.png",
+          "name": "Turret",
+          "description": "EQUIP a Turret. FIRE to deploy a turret that fires at enemies in a 180 degree cone. HOLD EQUIP to recall the deployed turret.",
+          "category": "Signature",
+          "price": 0
+        },
+        {
+          "icon": "https://res.cloudinary.com/dwgsvtusk/image/upload/v1736895867/Lockdown_baybx5.png",
+          "name": "Lockdown",
+          "description": "EQUIP the Lockdown device. FIRE to deploy the device. After a long windup, the device detains all enemies caught in the radius. The device can be destroyed by enemies.",
+          "category": "Ultimate",
+          "points": 9
+        }
+      ],
+      "origin": "Germany",
+      "release_patch": "1.05",
+      "profile_icon": "https://res.cloudinary.com/dwgsvtusk/image/upload/v1736895868/Killjoy-headshot_ihll5c.png",
+      "profile_image": "https://res.cloudinary.com/dwgsvtusk/image/upload/v1736895870/Killjoy_zxctgf.png",
+      "gallery": [],
+      "story": {
+        "agent": "Killjoy",
+        "origin": "Germany",
+        "background": {
+          "formerProfession": "Inventor, Engineer",
+          "militaryService": "N/A",
+          "corporateService": "Kingdom Corporation (former R&D consultant)",
+          "keyRelationships": [
+            {
+              "name": "Brimstone",
+              "relationship": "Co-founder of the VALORANT Protocol",
+              "impact": "Provides technological expertise to support Brimstone’s leadership"
+            },
+            {
+              "name": "Raze",
+              "relationship": "Close friend and rival",
+              "impact": "Collaborates on tech projects but clashes over reckless vs. methodical approaches"
+            }
+          ]
+        },
+        "valiantProtocol": {
+          "role": "Co-founder and Tech Specialist",
+          "coFounders": ["Brimstone", "Viper", "Omen"],
+          "leadershipStyle": "Innovative and analytical, focusing on defensive tech solutions",
+          "notableEvent": "Developed a prototype defense system to protect a VALORANT Protocol safehouse from a Radiant assault"
+        },
+        "conflicts": [
+          {
+            "name": "Tech Sabotage",
+            "location": "Berlin",
+            "threat": "Cyberattack on Radianite research facility",
+            "opposingForce": "Unknown hacker collective",
+            "actionTaken": "Deployed countermeasures and reinforced facility defenses with custom tech"
+          }
+        ],
+        "currentRole": {
+          "position": "Defensive Engineer",
+          "duties": [
+            "Deploys turrets and alarmbots for site defense",
+            "Uses nanoswarms for area denial",
+            "Secures objectives with lockdown technology"
+          ]
+        },
+        "traits": {
+          "strengths": [
+            "Intelligent",
+            "Innovative",
+            "Methodical",
+            "Resourceful"
+          ],
+          "values": ["Precision", "Innovation", "Security"]
+        },
+        "techArsenal": "Employs advanced robotics and nanotechnology to lock down areas and protect allies",
+        "summary": "Killjoy is a brilliant inventor whose cutting-edge technology fortifies defenses and controls the battlefield with precision and ingenuity."
+      }
+    },
+    {
+      "agent_id": 5,
+      "name": "Cypher",
+      "role": "Sentinel",
+      "role_icon": "https://res.cloudinary.com/dwgsvtusk/image/upload/v1736895962/Sentinel_daqzlf.png",
+      "abilities": [
+        {
+          "icon": "https://res.cloudinary.com/dwgsvtusk/image/upload/v1736895859/Trapwire_gdq7mb.png",
+          "name": "Trapwire",
+          "description": "Place a stealthed tripwire between two walls, triggering and restraining enemies who cross it.",
+          "category": "Basic",
+          "price": 200
+        },
+        {
+          "icon": "https://res.cloudinary.com/dwgsvtusk/image/upload/v1736895858/Cyber_Cage_ny5sjq.png",
+          "name": "Cyber Cage",
+          "description": "Place a remote activation trap that creates a cage that blocks vision and slows enemies.",
+          "category": "Basic",
+          "price": 100
+        },
+        {
+          "icon": "https://res.cloudinary.com/dwgsvtusk/image/upload/v1736895858/Spycam_ub1wt9.png",
+          "name": "Spycam",
+          "description": "Place a remote camera that you can activate to view its video feed.",
+          "category": "Signature",
+          "price": 0
+        },
+        {
+          "icon": "https://res.cloudinary.com/dwgsvtusk/image/upload/v1736895858/Neural_Theft_ij5zlw.png",
+          "name": "Neural Theft",
+          "description": "Extract information from a dead enemy, revealing the location of their living allies.",
+          "category": "Ultimate",
+          "points": 7
+        }
+      ],
+      "origin": "Morocco",
+      "release_patch": "Beta",
+      "profile_icon": "https://res.cloudinary.com/dwgsvtusk/image/upload/v1736895859/Cypher-headshot_qrgnfo.png",
+      "profile_image": "https://res.cloudinary.com/dwgsvtusk/image/upload/v1736895859/Cypher_y2dhmc.png",
+      "gallery": [],
+      "story": {
+        "agent": "Cypher",
+        "origin": "Morocco",
+        "background": {
+          "formerProfession": "Information Broker",
+          "militaryService": "N/A",
+          "corporateService": "Independent operative",
+          "keyRelationships": [
+            {
+              "name": "Brimstone",
+              "relationship": "Trusted commander",
+              "impact": "Provides critical intel to support Brimstone’s strategies"
+            },
+            {
+              "name": "Killjoy",
+              "relationship": "Tech collaborator",
+              "impact": "Shares expertise in surveillance tech development"
+            }
+          ]
+        },
+        "valiantProtocol": {
+          "role": "Intelligence Specialist",
+          "coFounders": [],
+          "leadershipStyle": "Methodical and secretive, focusing on information control",
+          "notableEvent": "Single-handedly uncovered a black-market Radianite trafficking ring"
+        },
+        "conflicts": [
+          {
+            "name": "Shadow Market Bust",
+            "location": "Rabat",
+            "threat": "Illegal Radianite smuggling",
+            "opposingForce": "Criminal syndicate",
+            "actionTaken": "Infiltrated network using surveillance tech to dismantle operations"
+          }
+        ],
+        "currentRole": {
+          "position": "Surveillance Expert",
+          "duties": [
+            "Deploys traps to secure key areas",
+            "Monitors enemies with spycams",
+            "Gathers intel to expose enemy positions"
+          ]
+        },
+        "traits": {
+          "strengths": ["Cunning", "Observant", "Strategic", "Elusive"],
+          "values": ["Knowledge", "Privacy", "Control"]
+        },
+        "surveillanceArsenal": "Utilizes advanced surveillance gadgets to monitor and trap enemies, controlling information flow",
+        "summary": "Cypher is a master of surveillance whose network of traps and cameras ensures no enemy movement goes unnoticed, securing the battlefield through information dominance."
+      }
+    },
+    {
+      "agent_id": 6,
+      "name": "Sova",
+      "role": "Initiator",
+      "role_icon": "https://res.cloudinary.com/dwgsvtusk/image/upload/v1736895962/Initiator_sb01ku.png",
+      "abilities": [
+        {
+          "icon": "https://res.cloudinary.com/dwgsvtusk/image/upload/v1736895876/Shock_Bolt_jlxvkx.png",
+          "name": "Shock Bolt",
+          "description": "Fire an explosive bolt that emits a damaging pulse of static energy.",
+          "category": "Basic",
+          "price": 150
+        },
+        {
+          "icon": "https://res.cloudinary.com/dwgsvtusk/image/upload/v1736895876/Owl_Drone_cm5fh0.png",
+          "name": "Owl Drone",
+          "description": "Deploy a drone that can be piloted and fires a dart that reveals enemies.",
+          "category": "Basic",
+          "price": 400
+        },
+        {
+          "icon": "https://res.cloudinary.com/dwgsvtusk/image/upload/v1736895876/Recon_Bolt_pguhff.png",
+          "name": "Recon Bolt",
+          "description": "Fire a bolt that deploys a sonar emitter, revealing nearby enemies.",
+          "category": "Signature",
+          "price": 0
+        },
+        {
+          "icon": "https://res.cloudinary.com/dwgsvtusk/image/upload/v1736895876/Hunter_s_Fury_ut12io.png",
+          "name": "Hunter's Fury",
+          "description": "Fire up to three deadly energy blasts that spear across the entire map.",
+          "category": "Ultimate",
+          "points": 8
+        }
+      ],
+      "origin": "Russia",
+      "release_patch": "Beta",
+      "profile_icon": "https://res.cloudinary.com/dwgsvtusk/image/upload/v1736895877/Sova-headshot_ybq7gn.png",
+      "profile_image": "https://res.cloudinary.com/dwgsvtusk/image/upload/v1736895878/Sova_xfdupf.png",
+      "gallery": [],
+      "story": {
+        "agent": "Sova",
+        "origin": "Russia",
+        "background": {
+          "formerProfession": "Hunter, Tracker",
+          "militaryService": "Russian Special Forces",
+          "corporateService": "N/A",
+          "keyRelationships": [
+            {
+              "name": "Brimstone",
+              "relationship": "Trusted commander",
+              "impact": "Provides reconnaissance to support Brimstone’s tactical decisions"
+            },
+            {
+              "name": "Sage",
+              "relationship": "Close ally",
+              "impact": "Shares a bond of mutual respect and teamwork"
+            }
+          ]
+        },
+        "valiantProtocol": {
+          "role": "Reconnaissance Specialist",
+          "coFounders": [],
+          "leadershipStyle": "Calm and precise, leading through action and reliability",
+          "notableEvent": "Tracked a rogue Radiant operative across Siberia, preventing a Radianite weapon prototype theft"
+        },
+        "conflicts": [
+          {
+            "name": "Siberian Pursuit",
+            "location": "Siberia",
+            "threat": "Radianite weapon prototype theft",
+            "opposingForce": "Rogue Radiant operative",
+            "actionTaken": "Led a solo mission to track and apprehend the operative"
+          }
+        ],
+        "currentRole": {
+          "position": "Scout and Tracker",
+          "duties": [
+            "Uses recon tools to reveal enemy positions",
+            "Deploys drones for real-time intelligence",
+            "Engages enemies with precise, long-range attacks"
+          ]
+        },
+        "traits": {
+          "strengths": ["Perceptive", "Resilient", "Honest", "Team-oriented"],
+          "values": ["Truth", "Duty", "Camaraderie"]
+        },
+        "reconArsenal": "Employs advanced tracking and archery-based tools to locate and expose enemies",
+        "summary": "Sova is a relentless scout whose keen instincts and precise tools uncover enemy positions, paving the way for his team’s success."
+      }
+    },
+    {
+      "agent_id": 7,
+      "name": "Sage",
+      "role": "Sentinel",
+      "role_icon": "https://res.cloudinary.com/dwgsvtusk/image/upload/v1736895962/Sentinel_daqzlf.png",
+      "abilities": [
+        {
+          "icon": "https://res.cloudinary.com/dwgsvtusk/image/upload/v1736895874/Barrier_Orb_ypizxh.png",
+          "name": "Barrier Orb",
+          "description": "EQUIP a barrier orb. FIRE places a solid wall that fortifies after a few seconds. ALT FIRE rotates the targeter.",
+          "category": "Basic",
+          "price": 400
+        },
+        {
+          "icon": "https://res.cloudinary.com/dwgsvtusk/image/upload/v1736895875/Slow_Orb_x2mrf6.png",
+          "name": "Slow Orb",
+          "description": "EQUIP a slowing orb. FIRE to throw a slowing orb forward that detonates upon landing, creating a lingering field that slows players caught inside of it.",
+          "category": "Basic",
+          "price": 200
+        },
+        {
+          "icon": "https://res.cloudinary.com/dwgsvtusk/image/upload/v1736895874/Healing_Orb_c2kflg.png",
+          "name": "Healing Orb",
+          "description": "EQUIP a healing orb. FIRE with your crosshairs over a damaged ally to activate a heal-over-time on them. ALT FIRE while Sage is damaged to activate a self heal-over-time.",
+          "category": "Signature",
+          "price": 0
+        },
+        {
+          "icon": "https://res.cloudinary.com/dwgsvtusk/image/upload/v1736895875/Resurrection_tymyft.png",
+          "name": "Resurrection",
+          "description": "EQUIP a resurrection ability. FIRE with your crosshairs placed over a dead ally to begin resurrecting them. After a brief channel, the ally will be brought back to life with full health.",
+          "category": "Ultimate",
+          "points": 7
+        }
+      ],
+      "origin": "China",
+      "release_patch": "Beta",
+      "profile_icon": "https://res.cloudinary.com/dwgsvtusk/image/upload/v1736895879/Sage-headshot_vgolsr.png",
+      "profile_image": "https://res.cloudinary.com/dwgsvtusk/image/upload/v1736708245/Sage_splnmj.png",
+      "gallery": [
+        "https://res.cloudinary.com/dwgsvtusk/image/upload/v1736895875/Sage-ingame_iqx4ta.png"
+      ],
+      "story": {
+        "agent": "Sage",
+        "origin": "China",
+        "background": {
+          "formerProfession": "Healer, Monk",
+          "militaryService": "N/A",
+          "corporateService": "N/A",
+          "keyRelationships": [
+            {
+              "name": "Sova",
+              "relationship": "Close ally",
+              "impact": "Shares a bond of mutual respect and teamwork"
+            },
+            {
+              "name": "Omen",
+              "relationship": "Trusted ally",
+              "impact": "Provides emotional grounding for Omen’s fractured identity"
+            }
+          ]
+        },
+        "valiantProtocol": {
+          "role": "Healer and Defender",
+          "coFounders": [],
+          "leadershipStyle": "Compassionate and supportive, prioritizing team survival",
+          "notableEvent": "Restored a critical VALORANT Protocol outpost after a devastating Radiant attack"
+        },
+        "conflicts": [
+          {
+            "name": "Monastery Siege",
+            "location": "Shaanxi",
+            "threat": "Radiant extremist attack on a Radianite research site",
+            "opposingForce": "Radiant extremists",
+            "actionTaken": "Led evacuation and healed wounded while fortifying defenses"
+          }
+        ],
+        "currentRole": {
+          "position": "Combat Medic",
+          "duties": [
+            "Heals and revives teammates",
+            "Deploys barriers to control space",
+            "Slows enemies to protect objectives"
+          ]
+        },
+        "traits": {
+          "strengths": ["Empathetic", "Calm", "Resilient", "Protective"],
+          "values": ["Compassion", "Balance", "Sacrifice"]
+        },
+        "healingArsenal": "Harnesses Radiant energy to heal allies, revive the fallen, and fortify defenses",
+        "summary": "Sage is a compassionate healer whose Radiant abilities restore and protect her team, anchoring the battlefield with hope and resilience."
+      }
+    },
+    {
+      "agent_id": 9,
+      "name": "Phoenix",
+      "role": "Duelist",
+      "role_icon": "",
+      "abilities": [
+        {
+          "icon": "https://res.cloudinary.com/dwgsvtusk/image/upload/v1736895871/Phoenix_Blaze_q8sbul.png",
+          "name": "Blaze",
+          "description": "EQUIP a flame wall. FIRE to create a line of flame that moves forward, creating a wall of fire that blocks vision and damages players passing through it. HOLD FIRE to bend the wall in the direction of your crosshair.",
+          "category": "Basic",
+          "price": 150
+        },
+        {
+          "icon": "https://res.cloudinary.com/dwgsvtusk/image/upload/v1736895871/Hot_Hands_bvymxj.png",
+          "name": "Hot Hands",
+          "description": "EQUIP a fireball. FIRE to throw a fireball that explodes after a set amount of time or upon hitting the ground, creating a lingering fire zone that damages enemies. The fire zone heals Phoenix instead of dealing damage.",
+          "category": "Basic",
+          "price": 200
+        },
+        {
+          "icon": "https://res.cloudinary.com/dwgsvtusk/image/upload/v1736895871/Curveball_nxml5y.png",
+          "name": "Curveball",
+          "description": "EQUIP a flare orb that takes a curving path and detonates shortly after throwing. FIRE to curve the flare orb to the left, detonating and blinding any player who sees the orb. ALTERNATE FIRE to curve the flare orb to the right.",
+          "category": "Signature",
+          "price": 250
+        },
+        {
+          "icon": "https://res.cloudinary.com/dwgsvtusk/image/upload/v1736895872/Run_it_Back_dggq3g.png",
+          "name": "Run It Back",
+          "description": "INSTANTLY place a marker at Phoenix's location. While this ability is active, dying or allowing the timer to expire will end this ability and bring Phoenix back to this location with full health.",
+          "category": "Ultimate",
+          "points": 6
+        }
+      ],
+      "origin": "United Kingdom",
+      "release_patch": "Beta",
+      "profile_icon": "https://res.cloudinary.com/dwgsvtusk/image/upload/v1736895872/Phoenix-headshot_xxfr4g.png",
+      "profile_image": "https://res.cloudinary.com/dwgsvtusk/image/upload/v1736708244/Phoenix_uvxvdq.png",
+      "gallery": [
+        "https://res.cloudinary.com/dwgsvtusk/image/upload/v1736895872/Phoenix-ingame_snbdql.png"
+      ],
+      "story": {
+        "agent": "Phoenix",
+        "origin": "United Kingdom",
+        "background": {
+          "formerProfession": "Performer, Radiant",
+          "militaryService": "N/A",
+          "corporateService": "N/A",
+          "keyRelationships": [
+            {
+              "name": "Jett",
+              "relationship": "Friendly rival",
+              "impact": "Competes in flair and agility but shares mutual respect"
+            },
+            {
+              "name": "Brimstone",
+              "relationship": "Mentor figure",
+              "impact": "Guides Phoenix’s raw talent into disciplined action"
+            }
+          ]
+        },
+        "valiantProtocol": {
+          "role": "Frontline Aggressor",
+          "coFounders": [],
+          "leadershipStyle": "Bold and charismatic, leading by example",
+          "notableEvent": "Single-handedly cleared a Radianite smuggling outpost with his fiery abilities"
+        },
+        "conflicts": [
+          {
+            "name": "London Blaze",
+            "location": "London",
+            "threat": "Radianite black market operation",
+            "opposingForce": "Criminal gang",
+            "actionTaken": "Infiltrated and dismantled the operation using fire-based tactics"
+          }
+        ],
+        "currentRole": {
+          "position": "Radiant Duelist",
+          "duties": [
+            "Leads aggressive pushes with flame walls and flashes",
+            "Controls space with fiery area denial",
+            "Sustains himself through healing and revival"
+          ]
+        },
+        "traits": {
+          "strengths": ["Confident", "Adaptable", "Fearless", "Charismatic"],
+          "values": ["Glory", "Courage", "Style"]
+        },
+        "fireArsenal": "Wields Radiant fire to dominate the battlefield with aggressive, self-sustaining tactics",
+        "summary": "Phoenix is a fiery duelist whose radiant flames and fearless attitude ignite the battlefield, leading his team with boldness and flair."
+      }
+    },
+    {
+      "agent_id": 10,
+      "name": "Jett",
+      "role": "Duelist",
+      "role_icon": "https://res.cloudinary.com/dwgsvtusk/image/upload/v1736895962/Duelist_o6snmb.png",
+      "abilities": [
+        {
+          "icon": "https://res.cloudinary.com/dwgsvtusk/image/upload/v1736895865/Cloudburst_i5zsxn.png",
+          "name": "Cloudburst",
+          "description": "INSTANTLY throw a projectile that expands into a brief vision-blocking cloud on impact with a surface. HOLD the ability key to curve the smoke in the direction of your crosshair.",
+          "category": "Basic",
+          "price": 200
+        },
+        {
+          "icon": "https://res.cloudinary.com/dwgsvtusk/image/upload/v1736895865/Updraft_jlr47c.png",
+          "name": "Updraft",
+          "description": "INSTANTLY propel Jett high into the air.",
+          "category": "Basic",
+          "price": 150
+        },
+        {
+          "icon": "https://res.cloudinary.com/dwgsvtusk/image/upload/v1736895865/Tailwind_pdfll1.png",
+          "name": "Tailwind",
+          "description": "ACTIVATE to prepare a gust of wind for a limited time. RE-USE the wind to propel Jett in the direction she is moving. If Jett is standing still, she propels forward.",
+          "category": "Signature",
+          "price": 0
+        },
+        {
+          "icon": "https://res.cloudinary.com/dwgsvtusk/image/upload/v1736895865/Blade_Storm_yaqe8c.png",
+          "name": "Blade Storm",
+          "description": "EQUIP a set of highly accurate throwing knives that recharge on killing an opponent. FIRE to throw a single knife at your target. ALTERNATE FIRE to throw all remaining daggers at your target.",
+          "category": "Ultimate",
+          "points": 8
+        }
+      ],
+      "origin": "South Korea",
+      "release_patch": "1.0",
+      "profile_icon": "https://res.cloudinary.com/dwgsvtusk/image/upload/v1736895865/Jett-headshot_csracl.png",
+      "profile_image": "https://res.cloudinary.com/dwgsvtusk/image/upload/v1736708242/Jett_hwargd.png",
+      "gallery": [
+        "https://res.cloudinary.com/dwgsvtusk/image/upload/v1736895867/Jett-ingame_h3pvdc.png"
+      ],
+      "story": {
+        "agent": "Jett",
+        "origin": "South Korea",
+        "background": {
+          "formerProfession": "Street racer, Radiant",
+          "militaryService": "N/A",
+          "corporateService": "N/A",
+          "keyRelationships": [
+            {
+              "name": "Phoenix",
+              "relationship": "Friendly rival",
+              "impact": "Competes in flair and agility but shares mutual respect"
+            },
+            {
+              "name": "Neon",
+              "relationship": "Compatriot",
+              "impact": "Bonds over shared speed and cultural ties"
+            }
+          ]
+        },
+        "valiantProtocol": {
+          "role": "Mobile Aggressor",
+          "coFounders": [],
+          "leadershipStyle": "Independent and agile, thriving in high-pressure situations",
+          "notableEvent": "Outmaneuvered an enemy convoy to secure a Radianite shipment in Seoul"
+        },
+        "conflicts": [
+          {
+            "name": "Seoul Storm",
+            "location": "Seoul",
+            "threat": "Radianite heist by a rogue faction",
+            "opposingForce": "Rogue Radiant operatives",
+            "actionTaken": "Used speed and precision to disrupt the heist and secure the shipment"
+          }
+        ],
+        "currentRole": {
+          "position": "Radiant Duelist",
+          "duties": [
+            "Executes rapid flanks and repositions",
+            "Controls sightlines with smoke clouds",
+            "Eliminates enemies with precise knife throws"
+          ]
+        },
+        "traits": {
+          "strengths": ["Agile", "Precise", "Confident", "Independent"],
+          "values": ["Freedom", "Speed", "Precision"]
+        },
+        "windArsenal": "Harnesses Radiant wind to outmaneuver enemies with unmatched speed and precision",
+        "summary": "Jett is a lightning-fast duelist whose wind-powered agility and deadly accuracy carve through the battlefield, outpacing and outwitting her foes."
+      }
+    },
+    {
+      "agent_id": 11,
+      "name": "Reyna",
+      "role": "Duelist",
+      "role_icon": "https://res.cloudinary.com/dwgsvtusk/image/upload/v1736895962/Duelist_o6snmb.png",
+      "abilities": [
+        {
+          "icon": "https://res.cloudinary.com/dwgsvtusk/image/upload/v1736895873/Leer_kxeqbb.png",
+          "name": "Leer",
+          "description": "EQUIP an ethereal, destructible eye. ACTIVATE to cast the eye a short distance forward. The eye will Nearsight all enemies who look at it.",
+          "category": "Basic",
+          "price": 250
+        },
+        {
+          "icon": "https://res.cloudinary.com/dwgsvtusk/image/upload/v1736895873/Devour_sk5l2l.png",
+          "name": "Devour",
+          "description": "INSTANTLY consume a nearby Soul Orb, rapidly healing for a short duration. Health gained through this skill exceeding 100 will decay over time. If Empress is active, this skill will automatically cast and not consume the orb.",
+          "category": "Signature",
+          "price": 200
+        },
+        {
+          "icon": "https://res.cloudinary.com/dwgsvtusk/image/upload/v1736895873/Dismiss_hfc1xn.png",
+          "name": "Dismiss",
+          "description": "INSTANTLY consume a nearby Soul Orb, becoming intangible for a short duration. If Empress is active, also become invisible.",
+          "category": "Signature",
+          "price": 200
+        },
+        {
+          "icon": "https://res.cloudinary.com/dwgsvtusk/image/upload/v1736895873/Empress_twyh7y.png",
+          "name": "Empress",
+          "description": "INSTANTLY enter a frenzy, increasing firing, equip, and reload speed dramatically. Gain infinite charges of Soul Harvest abilities.",
+          "category": "Ultimate",
+          "points": 6
+        }
+      ],
+      "origin": "Mexico",
+      "release_patch": "1.0",
+      "profile_icon": "https://res.cloudinary.com/dwgsvtusk/image/upload/v1736895873/Reyna-headshot_y44ara.png",
+      "profile_image": "https://res.cloudinary.com/dwgsvtusk/image/upload/v1736708245/Reyna_cftcyh.png",
+      "gallery": [
+        "https://res.cloudinary.com/dwgsvtusk/image/upload/v1736895874/Reyna-ingame_mwv9zd.png"
+      ],
+      "story": {
+        "agent": "Reyna",
+        "origin": "Mexico",
+        "background": {
+          "formerProfession": "Unknown, Radiant",
+          "militaryService": "N/A",
+          "corporateService": "N/A",
+          "keyRelationships": [
+            {
+              "name": "Viper",
+              "relationship": "Distrustful ally",
+              "impact": "Clashes over differing methods but cooperates for mutual goals"
+            },
+            {
+              "name": "Sage",
+              "relationship": "Respectful ally",
+              "impact": "Values Sage’s healing to sustain her aggressive playstyle"
+            }
+          ]
+        },
+        "valiantProtocol": {
+          "role": "Self-Sustaining Aggressor",
+          "coFounders": [],
+          "leadershipStyle": "Ruthless and independent, thriving on personal dominance",
+          "notableEvent": "Decimated an enemy stronghold single-handedly to protect a Radianite cache"
+        },
+        "conflicts": [
+          {
+            "name": "Mexico City Rampage",
+            "location": "Mexico City",
+            "threat": "Radianite theft by a cartel",
+            "opposingForce": "Radiant-enhanced cartel",
+            "actionTaken": "Infiltrated and eliminated the cartel using soul-based abilities"
+          }
+        ],
+        "currentRole": {
+          "position": "Radiant Duelist",
+          "duties": [
+            "Disrupts enemies with nearsight abilities",
+            "Sustains herself through soul-based healing and intangibility",
+            "Dominates fights with aggressive, high-damage tactics"
+          ]
+        },
+        "traits": {
+          "strengths": ["Ruthless", "Self-reliant", "Dominant", "Fearless"],
+          "values": ["Power", "Survival", "Vengeance"]
+        },
+        "soulArsenal": "Harnesses Radiant soul energy to heal, evade, and overwhelm enemies with relentless aggression",
+        "summary": "Reyna is a ferocious duelist whose soul-stealing powers fuel her dominance, thriving on kills to sustain and overpower her enemies."
+      }
+    },
+    {
+      "agent_id": 12,
+      "name": "Raze",
+      "role": "Duelist",
+      "role_icon": "https://res.cloudinary.com/dwgsvtusk/image/upload/v1736895962/Duelist_o6snmb.png",
+      "abilities": [
+        {
+          "icon": "https://res.cloudinary.com/dwgsvtusk/image/upload/v1736895872/Boom_Bot_hsuwas.png",
+          "name": "Boom Bot",
+          "description": "EQUIP a Boom Bot. FIRE to deploy the bot, causing it to travel in a straight line on the ground, bouncing off walls. The Boom Bot locks onto any enemies in its frontal cone and chases them, exploding for heavy damage if it reaches them.",
+          "category": "Basic",
+          "price": 300
+        },
+        {
+          "icon": "https://res.cloudinary.com/dwgsvtusk/image/upload/v1736895872/Blast_Pack_ejjzex.png",
+          "name": "Blast Pack",
+          "description": "INSTANTLY throw a Blast Pack that sticks to surfaces. RE-USE the ability after deployment to detonate, damaging and moving anything hit. Raze isn't damaged by this ability but can use it for mobility.",
+          "category": "Basic",
+          "price": 200
+        },
+        {
+          "icon": "https://res.cloudinary.com/dwgsvtusk/image/upload/v1736895872/Paint_Sheels_qrslcx.png",
+          "name": "Paint Shells",
+          "description": "EQUIP a cluster grenade. FIRE to throw the grenade, which deals damage and creates sub-munitions, each dealing damage to anyone in their range. The ability refreshes after two kills.",
+          "category": "Signature",
+          "price": 0
+        },
+        {
+          "icon": "https://res.cloudinary.com/dwgsvtusk/image/upload/v1736895873/Showstopper_ayiiir.png",
+          "name": "Showstopper",
+          "description": "EQUIP a rocket launcher. FIRE to shoot a rocket that deals massive area damage on contact with anything.",
+          "category": "Ultimate",
+          "points": 8
+        }
+      ],
+      "origin": "Brazil",
+      "release_patch": "Beta",
+      "profile_icon": "https://res.cloudinary.com/dwgsvtusk/image/upload/v1736895873/Raze-headshot_dy4u9v.png",
+      "profile_image": "https://res.cloudinary.com/dwgsvtusk/image/upload/v1736708246/Raze_ckd7fp.png",
+      "gallery": [
+        "https://res.cloudinary.com/dwgsvtusk/image/upload/v1736895874/Raze-ingame_ajar9o.png"
+      ],
+      "story": {
+        "agent": "Raze",
+        "origin": "Brazil",
+        "background": {
+          "formerProfession": "Demolitions Expert, Street Artist",
+          "militaryService": "N/A",
+          "corporateService": "N/A",
+          "keyRelationships": [
+            {
+              "name": "Killjoy",
+              "relationship": "Close friend and rival",
+              "impact": "Collaborates on tech but clashes over reckless vs. methodical approaches"
+            },
+            {
+              "name": "Brimstone",
+              "relationship": "Respectful subordinate",
+              "impact": "Channels her chaotic energy under Brimstone’s guidance"
+            }
+          ]
+        },
+        "valiantProtocol": {
+          "role": "Explosive Aggressor",
+          "coFounders": [],
+          "leadershipStyle": "Chaotic and bold, disrupting enemies with explosive flair",
+          "notableEvent": "Demolished a fortified enemy base to secure a critical Radianite shipment"
+        },
+        "conflicts": [
+          {
+            "name": "Salvador Siege",
+            "location": "Salvador",
+            "threat": "Radianite smuggling operation",
+            "opposingForce": "Mercenary group",
+            "actionTaken": "Used explosives to breach defenses and neutralize the threat"
+          }
+        ],
+        "currentRole": {
+          "position": "Demolitions Duelist",
+          "duties": [
+            "Clears areas with grenades and rockets",
+            "Disrupts enemies with explosive bots",
+            "Gains mobility through blast pack propulsion"
+          ]
+        },
+        "traits": {
+          "strengths": ["Energetic", "Creative", "Destructive", "Fearless"],
+          "values": ["Chaos", "Expression", "Victory"]
+        },
+        "explosiveArsenal": "Deploys a devastating array of explosives to obliterate enemies and control the battlefield",
+        "summary": "Raze is an explosive duelist whose high-energy demolitions and vibrant personality bring chaos to the battlefield, blasting through enemies with unrelenting force."
+      }
+    },
+    {
+      "agent_id": 13,
+      "name": "Breach",
+      "role": "Initiator",
+      "role_icon": "https://res.cloudinary.com/dwgsvtusk/image/upload/v1736895962/Initiator_sb01ku.png",
+      "abilities": [
+        {
+          "icon": "https://res.cloudinary.com/dwgsvtusk/image/upload/v1736895854/Aftershock_zkr64p.png",
+          "name": "Aftershock",
+          "description": "EQUIP a fusion charge. FIRE to set a slow-charging burst through a wall, dealing heavy damage to anyone caught in its area.",
+          "category": "Basic",
+          "price": 200
+        },
+        {
+          "icon": "https://res.cloudinary.com/dwgsvtusk/image/upload/v1736895856/Flashpoint_nge7ig.png",
+          "name": "Flashpoint",
+          "description": "EQUIP a blinding charge. FIRE to set a fast-acting burst through a wall, blinding all players looking at it.",
+          "category": "Basic",
+          "price": 250
+        },
+        {
+          "icon": "https://res.cloudinary.com/dwgsvtusk/image/upload/v1736895854/Fault_Line_tahveh.png",
+          "name": "Fault Line",
+          "description": "EQUIP a seismic blast. HOLD FIRE to increase the distance, then release to set off a quake that dazes all players in its zone and in a line up to the targeted point.",
+          "category": "Signature",
+          "price": 0
+        },
+        {
+          "icon": "https://res.cloudinary.com/dwgsvtusk/image/upload/v1736895855/Rolling_Thunder_mrnth0.png",
+          "name": "Rolling Thunder",
+          "description": "EQUIP a seismic charge. FIRE to send a cascading quake through all terrain in a large cone, dazing and knocking up all players caught in its blast.",
+          "category": "Ultimate",
+          "points": 8
+        }
+      ],
+      "origin": "Sweden",
+      "release_patch": "Beta",
+      "profile_icon": "https://res.cloudinary.com/dwgsvtusk/image/upload/v1736895855/breach-headshot_lhnbbd.png",
+      "profile_image": "https://res.cloudinary.com/dwgsvtusk/image/upload/v1736708241/Breach_wungpw.png",
+      "gallery": [],
+      "story": {
+        "agent": "Breach",
+        "origin": "Sweden",
+        "background": {
+          "formerProfession": "Mercenary, Criminal",
+          "militaryService": "N/A",
+          "corporateService": "N/A",
+          "keyRelationships": [
+            {
+              "name": "Brimstone",
+              "relationship": "Reluctant ally",
+              "impact": "Works under Brimstone’s command despite clashing personalities"
+            },
+            {
+              "name": "Raze",
+              "relationship": "Chaos partner",
+              "impact": "Shares a love for disruption and aggressive tactics"
+            }
+          ]
+        },
+        "valiantProtocol": {
+          "role": "Disruptive Initiator",
+          "coFounders": [],
+          "leadershipStyle": "Brash and forceful, breaking through enemy defenses",
+          "notableEvent": "Led a shock assault to breach a fortified Radianite storage facility"
+        },
+        "conflicts": [
+          {
+            "name": "Stockholm Breakout",
+            "location": "Stockholm",
+            "threat": "Radianite smuggling lockdown",
+            "opposingForce": "Private security force",
+            "actionTaken": "Used seismic abilities to breach defenses and secure the Radianite"
+          }
+        ],
+        "currentRole": {
+          "position": "Seismic Disruptor",
+          "duties": [
+            "Clears spaces with wall-penetrating blasts",
+            "Blinds and dazes enemies to create openings",
+            "Disrupts enemy formations with seismic quakes"
+          ]
+        },
+        "traits": {
+          "strengths": ["Aggressive", "Resilient", "Tactical", "Unrelenting"],
+          "values": ["Power", "Freedom", "Chaos"]
+        },
+        "seismicArsenal": "Employs seismic energy to shatter defenses and disorient enemies with overwhelming force",
+        "summary": "Breach is a relentless initiator whose seismic powers bulldoze through enemy lines, creating chaos and opportunities for his team."
+      }
+    },
+    {
+      "agent_id": 14,
+      "name": "Skye",
+      "role": "Initiator",
+      "role_icon": "https://res.cloudinary.com/dwgsvtusk/image/upload/v1736895962/Initiator_sb01ku.png",
+      "abilities": [
+        {
+          "icon": "https://res.cloudinary.com/dwgsvtusk/image/upload/v1736895876/Trailblazer_vgam0v.png",
+          "name": "Trailblazer",
+          "description": "EQUIP a Tasmanian tiger trinket. FIRE to send out and control a tiger that you can steer to explode, concussing enemies in a small radius.",
+          "category": "Basic",
+          "price": 300
+        },
+        {
+          "icon": "https://res.cloudinary.com/dwgsvtusk/image/upload/v1736895875/Regrowth_izpgxa.png",
+          "name": "Regrowth",
+          "description": "EQUIP a healing trinket. HOLD FIRE to channel, healing allies in range and line of sight. Can be reused until the healing pool is depleted. Does not heal Skye.",
+          "category": "Basic",
+          "price": 200
+        },
+        {
+          "icon": "https://res.cloudinary.com/dwgsvtusk/image/upload/v1736895875/Guiding_Light_tk4nu8.png",
+          "name": "Guiding Light",
+          "description": "EQUIP a hawk trinket. FIRE to send it forward. HOLD FIRE to guide the hawk, then REUSE to transform it into a flash that blinds enemies looking at it. Can be reused in a round.",
+          "category": "Signature",
+          "price": 0
+        },
+        {
+          "icon": "https://res.cloudinary.com/dwgsvtusk/image/upload/v1736895876/Seekers_rf33sy.png",
+          "name": "Seekers",
+          "description": "EQUIP a seeker trinket. FIRE to send out three seekers that track down the closest enemies, nearsighting them if caught.",
+          "category": "Ultimate",
+          "points": 7
+        }
+      ],
+      "origin": "Australia",
+      "release_patch": "1.11",
+      "profile_icon": "https://res.cloudinary.com/dwgsvtusk/image/upload/v1736895876/Skye-headshot_t4wuf4.png",
+      "profile_image": "https://res.cloudinary.com/dwgsvtusk/image/upload/v1736708247/Skye_davcvg.png",
+      "gallery": [],
+      "story": {
+        "agent": "Skye",
+        "origin": "Australia",
+        "background": {
+          "formerProfession": "Wildlife Guide, Radiant",
+          "militaryService": "N/A",
+          "corporateService": "N/A",
+          "keyRelationships": [
+            {
+              "name": "Sage",
+              "relationship": "Supportive ally",
+              "impact": "Shares a healing-focused mindset and coordinates team survival"
+            },
+            {
+              "name": "Sova",
+              "relationship": "Scouting partner",
+              "impact": "Combines tracking skills for effective reconnaissance"
+            }
+          ]
+        },
+        "valiantProtocol": {
+          "role": "Nature-Based Initiator",
+          "coFounders": [],
+          "leadershipStyle": "Grounded and team-oriented, guiding allies with natural instincts",
+          "notableEvent": "Led a rescue mission in a Radianite-contaminated jungle using her nature abilities"
+        },
+        "conflicts": [
+          {
+            "name": "Outback Crisis",
+            "location": "Australian Outback",
+            "threat": "Radianite environmental disaster",
+            "opposingForce": "Corporate poachers",
+            "actionTaken": "Used nature-based abilities to track and neutralize the threat"
+          }
+        ],
+        "currentRole": {
+          "position": "Recon Healer",
+          "duties": [
+            "Scouts with controllable beasts",
+            "Heals allies to sustain fights",
+            "Blinds and tracks enemies to initiate engagements"
+          ]
+        },
+        "traits": {
+          "strengths": [
+            "Empathetic",
+            "Resourceful",
+            "Team-oriented",
+            "Instinctive"
+          ],
+          "values": ["Nature", "Community", "Survival"]
+        },
+        "natureArsenal": "Commands nature-infused creatures to scout, heal, and disrupt enemies",
+        "summary": "Skye is a resourceful initiator whose nature-powered abilities heal allies and scout enemies, guiding her team with instinct and strength."
+      }
+    },
+    {
+      "agent_id": 15,
+      "name": "Yoru",
+      "role": "Duelist",
+      "role_icon": "https://res.cloudinary.com/dwgsvtusk/image/upload/v1736895962/Duelist_o6snmb.png",
+      "abilities": [
+        {
+          "icon": "https://res.cloudinary.com/dwgsvtusk/image/upload/v1736895881/Fakeout_pkjemt.png",
+          "name": "Fakeout",
+          "description": "EQUIP an echo that mimics footsteps when activated. FIRE to trigger the echo, creating decoy sounds. ALT FIRE to place the echo for later activation.",
+          "category": "Basic",
+          "price": 100
+        },
+        {
+          "icon": "https://res.cloudinary.com/dwgsvtusk/image/upload/v1736895881/Blindside_wkre9e.png",
+          "name": "Blindside",
+          "description": "EQUIP a rift fragment. FIRE to throw the fragment, which bounces off surfaces and detonates into a blinding flash after a short delay.",
+          "category": "Basic",
+          "price": 250
+        },
+        {
+          "icon": "https://res.cloudinary.com/dwgsvtusk/image/upload/v1736895881/Gatecrash_zm46x6.png",
+          "name": "Gatecrash",
+          "description": "EQUIP a rift tether. FIRE to send the tether forward, creating a portal marker. REUSE to teleport to the marker's location. Can be recalled and redeployed.",
+          "category": "Signature",
+          "price": 0
+        },
+        {
+          "icon": "https://res.cloudinary.com/dwgsvtusk/image/upload/v1736895881/Dimensional_Rift_tmlxb8.png",
+          "name": "Dimensional Drift",
+          "description": "EQUIP a rift mask. FIRE to drift into a dimension where Yoru is invisible and invulnerable but cannot affect the world. REUSE to exit early.",
+          "category": "Ultimate",
+          "points": 7
+        }
+      ],
+      "origin": "Japan",
+      "release_patch": "2.01",
+      "profile_icon": "https://res.cloudinary.com/dwgsvtusk/image/upload/v1736895881/Yoru-headshot_ljt177.png",
+      "profile_image": "https://res.cloudinary.com/dwgsvtusk/image/upload/v1736708247/Yoru_a4bame.png",
+      "gallery": [],
+      "story": {
+        "agent": "Yoru",
+        "origin": "Japan",
+        "background": {
+          "formerProfession": "Rift Walker, Lone Operative",
+          "militaryService": "N/A",
+          "corporateService": "N/A",
+          "keyRelationships": [
+            {
+              "name": "Phoenix",
+              "relationship": "Competitive rival",
+              "impact": "Clashes over showmanship but respects each other’s skill"
+            },
+            {
+              "name": "Jett",
+              "relationship": "Agile counterpart",
+              "impact": "Shares a knack for outmaneuvering enemies"
+            }
+          ]
+        },
+        "valiantProtocol": {
+          "role": "Deceptive Aggressor",
+          "coFounders": [],
+          "leadershipStyle": "Lone wolf, striking with precision and misdirection",
+          "notableEvent": "Infiltrated a heavily guarded Radianite vault using dimensional rifts"
+        },
+        "conflicts": [
+          {
+            "name": "Tokyo Rift",
+            "location": "Tokyo",
+            "threat": "Radianite artifact theft",
+            "opposingForce": "Yakuza syndicate",
+            "actionTaken": "Used dimensional abilities to bypass security and recover the artifact"
+          }
+        ],
+        "currentRole": {
+          "position": "Rift Duelist",
+          "duties": [
+            "Deceives enemies with fake sounds and portals",
+            "Blinds foes with rift-based flashes",
+            "Infiltrates with dimensional stealth"
+          ]
+        },
+        "traits": {
+          "strengths": ["Cunning", "Elusive", "Precise", "Independent"],
+          "values": ["Pride", "Deception", "Mastery"]
+        },
+        "riftArsenal": "Manipulates dimensional rifts to deceive, infiltrate, and outmaneuver enemies",
+        "summary": "Yoru is a cunning duelist whose rift-walking abilities allow him to slip through dimensions, deceiving and striking enemies with deadly precision."
+      }
+    },
+    {
+      "agent_id": 16,
+      "name": "Astra",
+      "role": "Controller",
+      "role_icon": "https://res.cloudinary.com/dwgsvtusk/image/upload/v1736895961/Controller_c4awhk.png",
+      "abilities": [
+        {
+          "icon": "https://res.cloudinary.com/dwgsvtusk/image/upload/v1736895852/Gravity_Well_s6l8iz.png",
+          "name": "Gravity Well",
+          "description": "Place Stars in Astral Form. ACTIVATE a Star to form a Gravity Well. Players in the area are pulled toward the center before it explodes, making all players still trapped inside Vulnerable.",
+          "category": "Basic",
+          "price": 150
+        },
+        {
+          "icon": "https://res.cloudinary.com/dwgsvtusk/image/upload/v1736895853/Nova_Pulse_sjku8g.png",
+          "name": "Nova Pulse",
+          "description": "Place Stars in Astral Form. ACTIVATE a Star to detonate a Nova Pulse. The Nova Pulse charges briefly then strikes, concussing all players in its area.",
+          "category": "Basic",
+          "price": 150
+        },
+        {
+          "icon": "https://res.cloudinary.com/dwgsvtusk/image/upload/v1736895853/Nebula_dg7eg7.png",
+          "name": "Nebula / Dissipate",
+          "description": "Place Stars in Astral Form. ACTIVATE a Star to transform it into a Nebula (smoke). USE a Star to Dissipate it, returning the Star to be placed in a new location after a delay. Dissipate briefly forms a fake Nebula at the Star's location before returning.",
+          "category": "Signature",
+          "price": 0
+        },
+        {
+          "icon": "https://res.cloudinary.com/dwgsvtusk/image/upload/v1736895853/Star_cw7il2.png",
+          "name": "Stars",
+          "description": "Place Stars in Astral Form. ACTIVATE a Star to transform it into a Nebula (smoke). USE a Star to Dissipate it, returning the Star to be placed in a new location after a delay. Dissipate briefly forms a fake Nebula at the Star's location before returning.",
+          "category": "Signature",
+          "price": 150
+        },
+        {
+          "icon": "https://res.cloudinary.com/dwgsvtusk/image/upload/v1736895853/Astral_Form_mwrhot.png",
+          "name": "Cosmic Divide",
+          "description": "ACTIVATE to enter Astral Form where you can place Stars with FIRE. Stars can be reactivated later, transforming them into a Nova Pulse, Nebula, or Gravity Well. When Cosmic Divide is charged, use ALT FIRE in Astral Form to begin aiming it, then FIRE to select two locations. An infinite Cosmic Divide connects the two points you select, blocking bullets and heavily dampening audio.",
+          "category": "Ultimate",
+          "points": 7
+        }
+      ],
+      "origin": "Ghana",
+      "release_patch": "2.04",
+      "profile_icon": "https://res.cloudinary.com/dwgsvtusk/image/upload/v1736895853/astra-head_qapn1q.png",
+      "profile_image": "https://res.cloudinary.com/dwgsvtusk/image/upload/v1736708244/Astra_lbgy1x.png",
+      "gallery": [],
+      "story": {
+        "agent": "Astra",
+        "origin": "Ghana",
+        "background": {
+          "formerProfession": "Cosmic Guardian, Radiant",
+          "militaryService": "N/A",
+          "corporateService": "N/A",
+          "keyRelationships": [
+            {
+              "name": "Harbor",
+              "relationship": "Cultural ally",
+              "impact": "Shares a connection through their Radiant heritage"
+            },
+            {
+              "name": "Brimstone",
+              "relationship": "Strategic partner",
+              "impact": "Provides cosmic control to complement Brimstone’s tactics"
+            }
+          ]
+        },
+        "valiantProtocol": {
+          "role": "Cosmic Controller",
+          "coFounders": [],
+          "leadershipStyle": "Mystical and strategic, manipulating the battlefield from the astral plane",
+          "notableEvent": "Halted a Radianite surge by channeling cosmic energy to stabilize a rift"
+        },
+        "conflicts": [
+          {
+            "name": "Accra Rift",
+            "location": "Accra",
+            "threat": "Unstable Radianite rift",
+            "opposingForce": "Environmental chaos",
+            "actionTaken": "Used astral abilities to contain and neutralize the rift"
+          }
+        ],
+        "currentRole": {
+          "position": "Astral Strategist",
+          "duties": [
+            "Controls space with gravity wells and pulses",
+            "Blocks vision and sound with cosmic smokes and walls",
+            "Manipulates the battlefield from the astral plane"
+          ]
+        },
+        "traits": {
+          "strengths": ["Mystical", "Strategic", "Visionary", "Resilient"],
+          "values": ["Harmony", "Cosmic Balance", "Control"]
+        },
+        "cosmicArsenal": "Channels cosmic energy to manipulate gravity, disorient enemies, and reshape the battlefield",
+        "summary": "Astra is a radiant controller who wields cosmic powers to control the battlefield, guiding her team with mystical precision from the astral plane."
+      }
+    },
+    {
+      "agent_id": 17,
+      "name": "KAY/O",
+      "role": "Initiator",
+      "role_icon": "https://res.cloudinary.com/dwgsvtusk/image/upload/v1736895962/Initiator_sb01ku.png",
+      "abilities": [
+        {
+          "icon": "https://res.cloudinary.com/dwgsvtusk/image/upload/v1736895866/FRAGment_aotmvk.png",
+          "name": "FRAG/ment",
+          "description": "EQUIP an explosive fragment. FIRE to throw. The fragment sticks to the floor and explodes multiple times, dealing near-lethal damage at the center with each explosion.",
+          "category": "Basic",
+          "price": 200
+        },
+        {
+          "icon": "https://res.cloudinary.com/dwgsvtusk/image/upload/v1736895866/FLASHdrive_m8jiru.png",
+          "name": "FLASH/drive",
+          "description": "EQUIP a flash grenade. FIRE to overhand throw. ALT FIRE to lob. The flash grenade explodes after a short fuse, blinding anyone in line of sight.",
+          "category": "Basic",
+          "price": 250
+        },
+        {
+          "icon": "https://res.cloudinary.com/dwgsvtusk/image/upload/v1736895866/ZEROpoint_wshhww.png",
+          "name": "ZERO/point",
+          "description": "EQUIP a suppression blade. FIRE to throw. The blade sticks to the first surface it hits, winds up, and suppresses anyone in the radius of the explosion.",
+          "category": "Signature",
+          "price": 0
+        },
+        {
+          "icon": "https://res.cloudinary.com/dwgsvtusk/image/upload/v1736895867/NULLcmd_fncdpk.png",
+          "name": "NULL/cmd",
+          "description": "INSTANTLY overload with polarized radianite energy that pulses from KAY/O in a massive radius. Enemies hit with pulses are suppressed for a short duration. While overloaded, KAY/O gains Combat Stim and can be re-stabilized if downed.",
+          "category": "Ultimate",
+          "points": 8
+        }
+      ],
+      "origin": "Unknown (Alternate Timeline)",
+      "release_patch": "3.0",
+      "profile_icon": "https://res.cloudinary.com/dwgsvtusk/image/upload/v1736895867/KAYO-headshot_dnzdnc.png",
+      "profile_image": "https://res.cloudinary.com/dwgsvtusk/image/upload/v1736708243/KayO_yo0cfk.png",
+      "gallery": [],
+      "story": {
+        "agent": "KAY/O",
+        "origin": "Unknown (Alternate Timeline)",
+        "background": {
+          "formerProfession": "War Machine",
+          "militaryService": "Anti-Radiant Taskforce (Alternate Timeline)",
+          "corporateService": "N/A",
+          "keyRelationships": [
+            {
+              "name": "Brimstone",
+              "relationship": "Trusted commander",
+              "impact": "Adapts to Brimstone’s leadership despite his machine nature"
+            },
+            {
+              "name": "Reyna",
+              "relationship": "Tense rival",
+              "impact": "Opposes Reyna’s Radiant supremacy with his suppression tech"
+            }
+          ]
+        },
+        "valiantProtocol": {
+          "role": "Anti-Radiant Initiator",
+          "coFounders": [],
+          "leadershipStyle": "Calculated and relentless, neutralizing threats with precision",
+          "notableEvent": "Disabled a Radiant uprising by suppressing their abilities in a critical skirmish"
+        },
+        "conflicts": [
+          {
+            "name": "Timeline Clash",
+            "location": "Unknown",
+            "threat": "Radiant domination in alternate timeline",
+            "opposingForce": "Radiant forces",
+            "actionTaken": "Deployed suppression tech to neutralize Radiant abilities"
+          }
+        ],
+        "currentRole": {
+          "position": "Cybernetic Disruptor",
+          "duties": [
+            "Suppresses enemy abilities with blades",
+            "Blinds and damages foes with grenades",
+            "Leads assaults with large-scale suppression pulses"
+          ]
+        },
+        "traits": {
+          "strengths": ["Logical", "Resilient", "Tactical", "Unyielding"],
+          "values": ["Order", "Neutrality", "Efficiency"]
+        },
+        "cyberArsenal": "Utilizes advanced cybernetic technology to suppress, damage, and disrupt enemy forces",
+        "summary": "KAY/O is a relentless war machine from an alternate timeline, designed to neutralize Radiant threats with suppression and firepower, anchoring his team with calculated precision."
+      }
+    },
+    {
+      "agent_id": 18,
+      "name": "Chamber",
+      "role": "Sentinel",
+      "role_icon": "https://res.cloudinary.com/dwgsvtusk/image/upload/v1736895961/Sentinel_daqzlf.png",
+      "abilities": [
+        {
+          "icon": "https://res.cloudinary.com/dwgsvtusk/image/upload/v1736895857/Trademark_xheeal.png",
+          "name": "Trademark",
+          "description": "Place a trap that scans for enemies. When a visible enemy comes in range, the trap counts down and then destabilizes the terrain around them, creating a lingering field that slows players caught inside of it.",
+          "category": "Basic",
+          "price": 200
+        },
+        {
+          "icon": "https://res.cloudinary.com/dwgsvtusk/image/upload/v1736895855/Headhunter_oofpzi.png",
+          "name": "Headhunter",
+          "description": "Activate to equip a heavy pistol. Alt fire with the pistol equipped to aim down sights.",
+          "category": "Basic",
+          "price": 100
+        },
+        {
+          "icon": "https://res.cloudinary.com/dwgsvtusk/image/upload/v1736895855/Rendezvous_zxgywn.png",
+          "name": "Rendezvous",
+          "description": "Place two teleport anchors. While on the ground and in range of an anchor, reactivate to teleport to the other anchor. The anchors can be picked up to be redeployed.",
+          "category": "Signature",
+          "price": 0
+        },
+        {
+          "icon": "https://res.cloudinary.com/dwgsvtusk/image/upload/v1736895856/Tour_De_Force_p3mazp.png",
+          "name": "Tour de Force",
+          "description": "Activate to summon a powerful, custom sniper rifle that will kill any enemy with any direct hit. Killing an enemy creates a lingering field that slows players caught inside of it.",
+          "category": "Ultimate",
+          "points": 8
+        }
+      ],
+      "origin": "France",
+      "release_patch": "3.10",
+      "profile_icon": "https://res.cloudinary.com/dwgsvtusk/image/upload/v1736895857/chamber-headshot_rtdild.png",
+      "profile_image": "https://res.cloudinary.com/dwgsvtusk/image/upload/v1736708242/Chamber_wnpq4b.png",
+      "gallery": [],
+      "story": {
+        "agent": "Chamber",
+        "origin": "France",
+        "background": {
+          "formerProfession": "Weapons Designer, Arms Dealer",
+          "militaryService": "N/A",
+          "corporateService": "Independent contractor",
+          "keyRelationships": [
+            {
+              "name": "Cypher",
+              "relationship": "Information broker",
+              "impact": "Trades intel to maintain strategic advantages"
+            },
+            {
+              "name": "Killjoy",
+              "relationship": "Tech collaborator",
+              "impact": "Shares expertise in weapon and trap design"
+            }
+          ]
+        },
+        "valiantProtocol": {
+          "role": "Precision Defender",
+          "coFounders": [],
+          "leadershipStyle": "Suave and calculated, leveraging precision and charm",
+          "notableEvent": "Designed a custom defense system to protect a Radianite vault from a coordinated assault"
+        },
+        "conflicts": [
+          {
+            "name": "Paris Gambit",
+            "location": "Paris",
+            "threat": "Radianite arms trafficking",
+            "opposingForce": "Black market dealers",
+            "actionTaken": "Used precision weaponry to dismantle the trafficking ring"
+          }
+        ],
+        "currentRole": {
+          "position": "Sniper Sentinel",
+          "duties": [
+            "Holds angles with high-precision weapons",
+            "Secures areas with slowing traps",
+            "Reposition quickly with teleportation"
+          ]
+        },
+        "traits": {
+          "strengths": ["Charming", "Precise", "Strategic", "Confident"],
+          "values": ["Elegance", "Control", "Success"]
+        },
+        "precisionArsenal": "Deploys custom-designed weapons and traps to dominate with unmatched accuracy and style",
+        "summary": "Chamber is a sophisticated sentinel whose precision weaponry and teleportation skills lock down the battlefield with elegance and deadly efficiency."
+      }
+    },
+    {
+      "agent_id": 19,
+      "name": "Neon",
+      "role": "Duelist",
+      "role_icon": "https://res.cloudinary.com/dwgsvtusk/image/upload/v1736895962/Duelist_o6snmb.png",
+      "abilities": [
+        {
+          "icon": "https://res.cloudinary.com/dwgsvtusk/image/upload/v1736895868/Fast_Lane_pgtrkc.png",
+          "name": "Fast Lane",
+          "description": "FIRE two energy lines forward on the ground that extend a short distance or until they hit a surface. The lines rise into walls of static electricity that block vision.",
+          "category": "Basic",
+          "price": 300
+        },
+        {
+          "icon": "https://res.cloudinary.com/dwgsvtusk/image/upload/v1736895869/Relay_Bolt_oiyqhv.png",
+          "name": "Relay Bolt",
+          "description": "INSTANTLY throw an energy bolt that bounces once. Upon hitting each surface, the bolt electrifies the ground below with a concussive blast.",
+          "category": "Basic",
+          "price": 200
+        },
+        {
+          "icon": "https://res.cloudinary.com/dwgsvtusk/image/upload/v1736895868/High_Gear_trt1ta.png",
+          "name": "High Gear",
+          "description": "INSTANTLY channel Neon's power for increased speed. When charged, ALT FIRE to trigger an electric slide dash. Slide charge resets every two kills.",
+          "category": "Signature",
+          "price": 0
+        },
+        {
+          "icon": "https://res.cloudinary.com/dwgsvtusk/image/upload/v1736895868/Overdrive_pf8huv.png",
+          "name": "Overdrive",
+          "description": "Unleash Neon's full power and speed for a short duration. FIRE to channel the power into a deadly lightning beam with high movement accuracy.",
+          "category": "Ultimate",
+          "points": 8
+        }
+      ],
+      "origin": "Philippines",
+      "release_patch": "4.0",
+      "profile_icon": "https://res.cloudinary.com/dwgsvtusk/image/upload/v1736895869/Neon-headshot_ipepeh.png",
+      "profile_image": "https://res.cloudinary.com/dwgsvtusk/image/upload/v1736708245/Neon_d037lb.png",
+      "gallery": [],
+      "story": {
+        "agent": "Neon",
+        "origin": "Philippines",
+        "background": {
+          "formerProfession": "Athlete, Radiant",
+          "militaryService": "N/A",
+          "corporateService": "Kingdom Corporation (former test subject)",
+          "keyRelationships": [
+            {
+              "name": "Jett",
+              "relationship": "Compatriot",
+              "impact": "Bonds over shared speed and cultural ties"
+            },
+            {
+              "name": "Reyna",
+              "relationship": "Mentor figure",
+              "impact": "Learns aggressive tactics from Reyna’s ruthless style"
+            }
+          ]
+        },
+        "valiantProtocol": {
+          "role": "High-Speed Aggressor",
+          "coFounders": [],
+          "leadershipStyle": "Energetic and impulsive, striking with electrifying speed",
+          "notableEvent": "Outran and neutralized a Radianite smuggling convoy in Manila"
+        },
+        "conflicts": [
+          {
+            "name": "Manila Surge",
+            "location": "Manila",
+            "threat": "Radianite smuggling operation",
+            "opposingForce": "Criminal syndicate",
+            "actionTaken": "Used electric speed to intercept and dismantle the convoy"
+          }
+        ],
+        "currentRole": {
+          "position": "Radiant Duelist",
+          "duties": [
+            "Flanks rapidly with high-speed sprints",
+            "Disrupts enemies with concussive bolts",
+            "Controls space with damaging energy walls"
+          ]
+        },
+        "traits": {
+          "strengths": ["Energetic", "Agile", "Bold", "Resilient"],
+          "values": ["Speed", "Courage", "Freedom"]
+        },
+        "electricArsenal": "Harnesses radiant electricity to sprint, stun, and electrify enemies with devastating speed",
+        "summary": "Neon is a lightning-fast duelist whose electric surges and radiant speed overwhelm enemies, electrifying the battlefield with unstoppable energy."
+      }
+    },
+    {
+      "agent_id": 20,
+      "name": "Fade",
+      "role": "Initiator",
+      "role_icon": "https://res.cloudinary.com/dwgsvtusk/image/upload/v1736895961/Initiator_sb01ku.png",
+      "abilities": [
+        {
+          "icon": "https://res.cloudinary.com/dwgsvtusk/image/upload/v1736895861/Prowler_q83lwa.png",
+          "name": "Prowler",
+          "description": "EQUIP a prowler. FIRE sends the prowler forward, causing it to lock onto any enemies or trails in its path, and chase them, nearsighting them if it reaches them.",
+          "category": "Basic",
+          "price": 250
+        },
+        {
+          "icon": "https://res.cloudinary.com/dwgsvtusk/image/upload/v1736895861/Seize_efykme.png",
+          "name": "Seize",
+          "description": "EQUIP an orb of nightmare ink. FIRE to throw the orb, which will plummet to the ground after a set amount of time. Upon hitting the ground, the ink will explode and create a zone in which enemies caught in it cannot escape by normal means.",
+          "category": "Basic",
+          "price": 200
+        },
+        {
+          "icon": "https://res.cloudinary.com/dwgsvtusk/image/upload/v1736895860/Haunt_vajnzl.png",
+          "name": "Haunt",
+          "description": "EQUIP a nightmarish entity. FIRE to throw the orb, which will plummet to the ground after a set amount of time. Upon hitting the ground, the orb will turn into a nightmarish entity that reveals the location of enemies caught in its line of sight. Enemies can destroy this entity.",
+          "category": "Signature",
+          "price": 0
+        },
+        {
+          "icon": "https://res.cloudinary.com/dwgsvtusk/image/upload/v1736895861/Nightfall_xhb1b6.png",
+          "name": "Nightfall",
+          "description": "EQUIP the power of fear. FIRE to send out a wave of nightmare energy that can pass through walls. The energy creates a trail to affected enemies and deafens and decays them.",
+          "category": "Ultimate",
+          "points": 7
+        }
+      ],
+      "origin": "Turkey",
+      "release_patch": "4.08",
+      "profile_icon": "https://res.cloudinary.com/dwgsvtusk/image/upload/v1736895861/Fade-headshot_eprbzf.png",
+      "profile_image": "https://res.cloudinary.com/dwgsvtusk/image/upload/v1736708242/Fade_lby87v.png",
+      "gallery": [],
+      "story": {
+        "agent": "Fade",
+        "origin": "Turkey",
+        "background": {
+          "formerProfession": "Bounty Hunter, Radiant",
+          "militaryService": "N/A",
+          "corporateService": "N/A",
+          "keyRelationships": [
+            {
+              "name": "Sova",
+              "relationship": "Tracking partner",
+              "impact": "Combines nightmare tracking with Sova’s recon for deadly precision"
+            },
+            {
+              "name": "Cypher",
+              "relationship": "Information ally",
+              "impact": "Shares intel-gathering expertise but maintains cautious trust"
+            }
+          ]
+        },
+        "valiantProtocol": {
+          "role": "Nightmare Tracker",
+          "coFounders": [],
+          "leadershipStyle": "Methodical and intimidating, using fear to unravel enemies",
+          "notableEvent": "Hunted down a rogue Radiant operative hiding in Istanbul using nightmare abilities"
+        },
+        "conflicts": [
+          {
+            "name": "Istanbul Hunt",
+            "location": "Istanbul",
+            "threat": "Rogue Radiant operative",
+            "opposingForce": "Fugitive Radiant",
+            "actionTaken": "Tracked and captured the target with fear-based abilities"
+          }
+        ],
+        "currentRole": {
+          "position": "Fear-Inducing Initiator",
+          "duties": [
+            "Reveals enemies with nightmare orbs",
+            "Disrupts foes with tethers and prowlers",
+            "Initiates fights with deafening, revealing ultimates"
+          ]
+        },
+        "traits": {
+          "strengths": [
+            "Intimidating",
+            "Perceptive",
+            "Strategic",
+            "Relentless"
+          ],
+          "values": ["Truth", "Fear", "Justice"]
+        },
+        "nightmareArsenal": "Wields nightmare energy to track, tether, and terrify enemies, exposing their weaknesses",
+        "summary": "Fade is a haunting initiator whose nightmare powers unravel enemy defenses, using fear to track and dominate the battlefield."
+      }
+    },
+    {
+      "agent_id": 21,
+      "name": "Harbor",
+      "role": "Controller",
+      "role_icon": "https://res.cloudinary.com/dwgsvtusk/image/upload/v1736895961/Controller_c4awhk.png",
+      "abilities": [
+        {
+          "icon": "https://res.cloudinary.com/dwgsvtusk/image/upload/v1736895863/Cascade_b3fx6e.png",
+          "name": "Cascade",
+          "description": "EQUIP a wave of water. FIRE to send the wave rolling forward and through walls. RE-USE to stop the wave. Players hit are SLOWED.",
+          "category": "Basic",
+          "price": 150
+        },
+        {
+          "icon": "https://res.cloudinary.com/dwgsvtusk/image/upload/v1736895863/Cove_hbs4x5.png",
+          "name": "Cove",
+          "description": "EQUIP a sphere of shielding water. FIRE to throw. ALT FIRE to underhand throw. Upon impacting the ground, spawn a water shield that blocks bullets.",
+          "category": "Basic",
+          "price": 350
+        },
+        {
+          "icon": "https://res.cloudinary.com/dwgsvtusk/image/upload/v1736895863/High_Tide_jfkjun.png",
+          "name": "High Tide",
+          "description": "EQUIP a wall of water. FIRE to send the water forward along the ground. HOLD FIRE to guide the water in the direction of your crosshair, spawning a wall along the water's path. ALT FIRE to stop the water early. Players hit are SLOWED.",
+          "category": "Signature",
+          "price": 0
+        },
+        {
+          "icon": "https://res.cloudinary.com/dwgsvtusk/image/upload/v1736895863/Reckoning_y7bqhw.png",
+          "name": "Reckoning",
+          "description": "EQUIP the full power of your Artifact. FIRE to summon a geyser pool on the ground. Enemy players in the area are targeted by successive geyser strikes. Players caught within a strike are CONCUSSED.",
+          "category": "Ultimate",
+          "points": 7
+        }
+      ],
+      "origin": "India",
+      "release_patch": "5.08",
+      "profile_icon": "https://res.cloudinary.com/dwgsvtusk/image/upload/v1736895863/Harbor-headshot_yu7bne.png",
+      "profile_image": "https://res.cloudinary.com/dwgsvtusk/image/upload/v1736708242/Harbor_r1n34d.png",
+      "gallery": [],
+      "story": {
+        "agent": "Harbor",
+        "origin": "India",
+        "background": {
+          "formerProfession": "Artifact Hunter, Radiant",
+          "militaryService": "Indian Coast Guard (former)",
+          "corporateService": "N/A",
+          "keyRelationships": [
+            {
+              "name": "Astra",
+              "relationship": "Cultural ally",
+              "impact": "Shares a connection through their Radiant heritage"
+            },
+            {
+              "name": "Brimstone",
+              "relationship": "Trusted commander",
+              "impact": "Provides water-based control to support Brimstone’s strategies"
+            }
+          ]
+        },
+        "valiantProtocol": {
+          "role": "Tidal Controller",
+          "coFounders": [],
+          "leadershipStyle": "Calm and authoritative, wielding water to shape the battlefield",
+          "notableEvent": "Secured an ancient Radianite artifact from a coastal black market"
+        },
+        "conflicts": [
+          {
+            "name": "Mumbai Monsoon",
+            "location": "Mumbai",
+            "threat": "Radianite artifact smuggling",
+            "opposingForce": "Coastal smugglers",
+            "actionTaken": "Used tidal abilities to block escape routes and recover the artifact"
+          }
+        ],
+        "currentRole": {
+          "position": "Water-Based Strategist",
+          "duties": [
+            "Blocks sightlines with water walls and shields",
+            "Slows enemies with tidal waves",
+            "Disrupts formations with concussive geysers"
+          ]
+        },
+        "traits": {
+          "strengths": ["Calm", "Strategic", "Resilient", "Commanding"],
+          "values": ["Balance", "Protection", "Duty"]
+        },
+        "tidalArsenal": "Commands ancient water artifacts to shield, slow, and displace enemies with fluid precision",
+        "summary": "Harbor is a commanding controller who wields tidal forces to protect allies and control the battlefield, guiding his team with serene authority."
+      }
+    },
+    {
+      "agent_id": 22,
+      "name": "Gekko",
+      "role": "Initiator",
+      "role_icon": "https://res.cloudinary.com/dwgsvtusk/image/upload/v1736895961/Initiator_sb01ku.png",
+      "abilities": [
+        {
+          "icon": "https://res.cloudinary.com/dwgsvtusk/image/upload/v1736895862/Mosh_Pit_bro9tu.png",
+          "name": "Mosh Pit",
+          "description": "EQUIP Mosh. FIRE to throw Mosh like a grenade. Upon landing, Mosh duplicates across a large area and, after a short delay, explodes, dealing damage to enemies within the zone.",
+          "category": "Basic",
+          "price": 250
+        },
+        {
+          "icon": "https://res.cloudinary.com/dwgsvtusk/image/upload/v1736895862/Wingman_hfvupa.png",
+          "name": "Wingman",
+          "description": "EQUIP Wingman. FIRE to send Wingman forward seeking enemies. Wingman unleashes a concussive blast toward the first enemy he sees. ALT FIRE when targeting a Spike site or planted Spike to have Wingman defuse or plant the Spike. To plant, Gekko must have the Spike in his inventory.",
+          "category": "Basic",
+          "price": 300
+        },
+        {
+          "icon": "https://res.cloudinary.com/dwgsvtusk/image/upload/v1736895861/Dizzy_ymtwtp.png",
+          "name": "Dizzy",
+          "description": "EQUIP Dizzy. FIRE to send Dizzy soaring forward through the air. Dizzy charges then unleashes plasma blasts at enemies in line of sight. Enemies hit by her plasma are blinded.",
+          "category": "Signature",
+          "price": 0
+        },
+        {
+          "icon": "https://res.cloudinary.com/dwgsvtusk/image/upload/v1736895862/Thrash_dyfiqz.png",
+          "name": "Thrash",
+          "description": "EQUIP Thrash. FIRE to link with Thrash's mind and steer her through enemy territory. ACTIVATE to lunge forward and explode, detaining any players in a small radius.",
+          "category": "Ultimate",
+          "points": 7
+        }
+      ],
+      "origin": "Los Angeles, USA",
+      "release_patch": "6.04",
+      "profile_icon": "https://res.cloudinary.com/dwgsvtusk/image/upload/v1736895862/Gekko-headshot_tuqvpa.png",
+      "profile_image": "https://res.cloudinary.com/dwgsvtusk/image/upload/v1736713073/Gekko_kbeodz.png",
+      "gallery": [],
+      "story": {
+        "agent": "Gekko",
+        "origin": "Los Angeles, USA",
+        "background": {
+          "formerProfession": "Street Artist",
+          "militaryService": "N/A",
+          "corporateService": "N/A",
+          "keyRelationships": [
+            {
+              "name": "Phoenix",
+              "relationship": "Close friend",
+              "impact": "Share street culture influences"
+            },
+            {
+              "name": "Reyna",
+              "relationship": "Tactical ally",
+              "impact": "Combines creature intel with her aggressive style"
+            }
+          ]
+        },
+        "valiantProtocol": {
+          "role": "Creature Commander",
+          "coFounders": [],
+          "leadershipStyle": "Laid-back but determined, commanding his creature companions with care",
+          "notableEvent": "Discovered his ability to manifest living creatures from his Radianite energy"
+        },
+        "conflicts": [
+          {
+            "name": "LA Underground",
+            "location": "Los Angeles",
+            "threat": "Radianite smuggling ring",
+            "opposingForce": "Local gang affiliates",
+            "actionTaken": "Used his creatures to scout and neutralize threat without casualties"
+          }
+        ],
+        "currentRole": {
+          "position": "Recon and Utility Specialist",
+          "duties": [
+            "Scouting with creature companions",
+            "Area denial with explosive creatures",
+            "Spike planting/defusing support"
+          ]
+        },
+        "traits": {
+          "strengths": ["Creative", "Adaptable", "Loyal", "Resourceful"],
+          "values": ["Friendship", "Community", "Expression"]
+        },
+        "creatureCompanions": "Manifests living creatures from Radianite energy that scout, blind, damage, and detain enemies",
+        "summary": "Gekko leads a tight-knit crew of calamitous creatures. His buddies bound forward, scatter opponents, and reclaim territory with ease. Any enemy standing between Gekko and his crew better watch out."
+      }
+    },
+    {
+      "agent_id": 23,
+      "name": "Deadlock",
+      "role": "Sentinel",
+      "role_icon": "https://res.cloudinary.com/dwgsvtusk/image/upload/v1736895961/Sentinel_daqzlf.png",
+      "abilities": [
+        {
+          "icon": "https://res.cloudinary.com/dwgsvtusk/image/upload/v1736895860/GravNet_socql5.png",
+          "name": "GravNet",
+          "description": "EQUIP a GravNet grenade. FIRE to throw. ALT FIRE to lob. The GravNet detonates upon landing, forcing any enemies caught within to crouch and move slowly.",
+          "category": "Basic",
+          "price": 200
+        },
+        {
+          "icon": "https://res.cloudinary.com/dwgsvtusk/image/upload/v1736895860/Sonic_Sensor_wfeosu.png",
+          "name": "Sonic Sensor",
+          "description": "EQUIP a Sonic Sensor. FIRE to deploy. The sensor monitors an area for enemies making sound. It concusses that area if footsteps, weapons fire, or significant noise are detected.",
+          "category": "Basic",
+          "price": 200
+        },
+        {
+          "icon": "https://res.cloudinary.com/dwgsvtusk/image/upload/v1736895860/Barrier_Mesh_spnvoc.png",
+          "name": "Barrier Mesh",
+          "description": "EQUIP a Barrier Mesh disc. FIRE to throw forward. Upon landing, the disc generates barriers from the origin point that block character movement.",
+          "category": "Signature",
+          "price": 0
+        },
+        {
+          "icon": "https://res.cloudinary.com/dwgsvtusk/image/upload/v1736895860/Annihilation_qtyfdp.png",
+          "name": "Annihilation",
+          "description": "EQUIP a Nanowire Accelerator. FIRE to unleash a pulse of nanowires that captures the first enemy contacted. The cocooned enemy is pulled along a nanowire path and will die if they reach the end, unless they are freed. The nanowire cocoon is destructible.",
+          "category": "Ultimate",
+          "points": 7
+        }
+      ],
+      "origin": "Norway",
+      "release_patch": "7.0",
+      "profile_icon": "https://res.cloudinary.com/dwgsvtusk/image/upload/v1736895864/Deadlock-headshot_uuprqc.png",
+      "profile_image": "https://res.cloudinary.com/dwgsvtusk/image/upload/v1736713071/Deadlock_s8cbhg.png",
+      "gallery": [],
+      "story": {
+        "agent": "Deadlock",
+        "origin": "Norway",
+        "background": {
+          "formerProfession": "Military Security Specialist",
+          "militaryService": "Norwegian Special Forces",
+          "corporateService": "Private Security Contractor",
+          "keyRelationships": [
+            {
+              "name": "Brimstone",
+              "relationship": "Respected colleague",
+              "impact": "Shares tactical military background"
+            },
+            {
+              "name": "Sage",
+              "relationship": "Strategic complement",
+              "impact": "Both specialize in area denial through different means"
+            }
+          ]
+        },
+        "valiantProtocol": {
+          "role": "Tactical Security Specialist",
+          "coFounders": [],
+          "leadershipStyle": "Strict, disciplined, with unwavering focus on mission security",
+          "notableEvent": "Successfully defended a high-value Radianite shipment from coordinated attacks"
+        },
+        "conflicts": [
+          {
+            "name": "Oslo Incursion",
+            "location": "Norway",
+            "threat": "Mirror Earth infiltration",
+            "opposingForce": "Mirror agents",
+            "actionTaken": "Deployed barrier technology to secure perimeter and captured infiltrators"
+          }
+        ],
+        "currentRole": {
+          "position": "Area Denial Expert",
+          "duties": [
+            "Securing sites with physical barriers",
+            "Capturing enemies with nanowire technology",
+            "Monitoring areas with sonic surveillance"
+          ]
+        },
+        "traits": {
+          "strengths": ["Disciplined", "Tactical", "Decisive", "Protective"],
+          "values": ["Security", "Order", "Duty"]
+        },
+        "nanowireSystems": "Deploys advanced nanowire technology to create barriers, slow enemies, and capture intruders",
+        "summary": "Deadlock deploys an array of cutting-edge nanowire to secure the battlefield from enemy incursion. No one escapes her vigilant watch or the strike of her unyielding swift justice."
+      }
+    },
+    {
+      "agent_id": 24,
+      "name": "Iso",
+      "role": "Duelist",
+      "role_icon": "https://res.cloudinary.com/dwgsvtusk/image/upload/v1736895962/Duelist_o6snmb.png",
+      "abilities": [
+        {
+          "icon": "https://res.cloudinary.com/dwgsvtusk/image/upload/v1736895864/Contingency_jl4sc3.png",
+          "name": "Contingency",
+          "description": "EQUIP to assemble prismatic energy. FIRE to push an indestructible wall of energy forward that blocks bullets.",
+          "category": "Basic",
+          "price": 250
+        },
+        {
+          "icon": "https://res.cloudinary.com/dwgsvtusk/image/upload/v1736895864/Undercut_shuayq.png",
+          "name": "Undercut",
+          "description": "EQUIP a molecular bolt. FIRE to throw it forward, applying a brief FRAGILE to all players it touches. The bolt can pass through solid objects, including walls.",
+          "category": "Basic",
+          "price": 200
+        },
+        {
+          "icon": "https://res.cloudinary.com/dwgsvtusk/image/upload/v1736895865/Double_Tap_jxbsld.png",
+          "name": "Double Tap",
+          "description": "START a focus timer. Once completed, enter a flow state during which downed enemies you kill or damage generate an energy orb. Shooting this orb grants you a shield which absorbs one instance of damage from any source.",
+          "category": "Signature",
+          "price": 0
+        },
+        {
+          "icon": "https://res.cloudinary.com/dwgsvtusk/image/upload/v1736895864/Kill_Contract_eerbjw.png",
+          "name": "Kill Contract",
+          "description": "EQUIP an interdimensional arena. FIRE to hurl a column of energy through the battlefield, pulling you and the first enemy hit into the arena. You and your opponent duel to the death.",
+          "category": "Ultimate",
+          "points": 7
+        }
+      ],
+      "origin": "China",
+      "release_patch": "7.09",
+      "profile_icon": "https://res.cloudinary.com/dwgsvtusk/image/upload/v1736895866/Iso-headshot_adtvet.png",
+      "profile_image": "https://res.cloudinary.com/dwgsvtusk/image/upload/v1736713074/Iso_xxm3vd.png",
+      "gallery": [],
+      "story": {
+        "agent": "Iso",
+        "origin": "China",
+        "background": {
+          "formerProfession": "Professional Fighter",
+          "militaryService": "N/A",
+          "corporateService": "Personal Security Detail",
+          "keyRelationships": [
+            {
+              "name": "Jett",
+              "relationship": "Competitive rival",
+              "impact": "Both demonstrate exceptional reflexes and finesse"
+            },
+            {
+              "name": "Phoenix",
+              "relationship": "Tactical ally",
+              "impact": "Complementary aggressive playstyles"
+            }
+          ]
+        },
+        "valiantProtocol": {
+          "role": "Energy Manipulator",
+          "coFounders": [],
+          "leadershipStyle": "Independent and confident, leading by example through skill and prowess",
+          "notableEvent": "Won a prestigious underground fighting tournament using his Radiant abilities"
+        },
+        "conflicts": [
+          {
+            "name": "Shanghai Showdown",
+            "location": "Shanghai",
+            "threat": "Criminal syndicate",
+            "opposingForce": "Local triads",
+            "actionTaken": "Single-handedly neutralized multiple opponents using energy manipulation"
+          }
+        ],
+        "currentRole": {
+          "position": "Combat Specialist",
+          "duties": [
+            "Front-line engagement with energy attacks",
+            "Damage redirection and absorption",
+            "Area control with energy disks"
+          ]
+        },
+        "traits": {
+          "strengths": ["Focused", "Precise", "Independent", "Adaptable"],
+          "values": ["Skill", "Competition", "Self-reliance"]
+        },
+        "energyManipulation": "Channels and redirects energy in combat for attacks, defense, and tactical advantage",
+        "summary": "Iso steps into the fight on his own terms, charging headlong into danger with unmatched confidence. He punishes enemies with a barrage of energy and quickly eliminates any who stand against him."
+      }
+    },
+    {
+      "agent_id": 25,
+      "name": "Clove",
+      "role": "Controller",
+      "role_icon": "https://res.cloudinary.com/dwgsvtusk/image/upload/v1736895961/Controller_c4awhk.png",
+      "abilities": [
+        {
+          "icon": "https://res.cloudinary.com/dwgsvtusk/image/upload/v1736895857/Pick-me-up_vluhx9.png",
+          "name": "Pick-Me-Up",
+          "description": "INSTANTLY absorb the life force of a fallen enemy that Clove damaged or killed, gaining haste and temporary health.",
+          "category": "Basic",
+          "price": 200
+        },
+        {
+          "icon": "https://res.cloudinary.com/dwgsvtusk/image/upload/v1736895857/Meddle_t37onn.png",
+          "name": "Meddle",
+          "description": "EQUIP a fragment of immortality essence. FIRE to throw the fragment, which erupts after a short delay and temporarily decays all targets caught inside.",
+          "category": "Basic",
+          "price": 250
+        },
+        {
+          "icon": "https://res.cloudinary.com/dwgsvtusk/image/upload/v1736895858/Ruse_bzjohm.png",
+          "name": "Ruse",
+          "description": "EQUIP to view the battlefield. FIRE to set the locations where Clove’s clouds will settle. ALT FIRE to confirm, launching clouds that block vision in the chosen areas. Clove can use this ability after death.",
+          "category": "Signature",
+          "price": 0
+        },
+        {
+          "icon": "https://res.cloudinary.com/dwgsvtusk/image/upload/v1736895857/Not_Dead_Yet_wcvnv9.png",
+          "name": "Not Dead Yet",
+          "description": "After dying, ACTIVATE to resurrect. Once resurrected, Clove must earn a kill or a damaging assist within a set time or they will die. REACTIVATE to cancel early.",
+          "category": "Ultimate",
+          "points": 8
+        }
+      ],
+      "origin": "Scotland",
+      "release_patch": "8.05",
+      "profile_icon": "https://res.cloudinary.com/dwgsvtusk/image/upload/v1736895860/Clove-headshot_huc1kl.png",
+      "profile_image": "https://res.cloudinary.com/dwgsvtusk/image/upload/v1736713070/Clove_acssrr.png",
+      "gallery": [],
+      "story": {
+        "agent": "Clove",
+        "origin": "Scotland",
+        "background": {
+          "formerProfession": "Temporal Physics Researcher",
+          "militaryService": "N/A",
+          "corporateService": "Secret research division",
+          "keyRelationships": [
+            {
+              "name": "Omen",
+              "relationship": "Dimensional ally",
+              "impact": "Both manipulate different dimensional aspects"
+            },
+            {
+              "name": "Astra",
+              "relationship": "Cosmic counterpart",
+              "impact": "Together can manipulate both space and time"
+            }
+          ]
+        },
+        "valiantProtocol": {
+          "role": "Temporal Manipulator",
+          "coFounders": [],
+          "leadershipStyle": "Chaotic but effective, bending rules of mortality and time",
+          "notableEvent": "Survived what should have been a fatal laboratory accident by manipulating their own timeline"
+        },
+        "conflicts": [
+          {
+            "name": "Edinburgh Anomaly",
+            "location": "Edinburgh",
+            "threat": "Temporal distortion",
+            "opposingForce": "Unstable time phenomena",
+            "actionTaken": "Utilized temporal abilities to stabilize and contain the anomaly"
+          }
+        ],
+        "currentRole": {
+          "position": "Death-Defying Controller",
+          "duties": [
+            "Area denial with gravity wells",
+            "Team support with stimulants",
+            "Survival through death manipulation"
+          ]
+        },
+        "traits": {
+          "strengths": ["Resilient", "Unpredictable", "Defiant", "Adaptable"],
+          "values": ["Freedom", "Chaos", "Survival"]
+        },
+        "temporalMastery": "Manipulates the boundary between life and death, stepping between dimensions to gain tactical advantage",
+        "summary": "Clove flows through the battlefield with chaotic precision, defying death itself while manipulating the space around them. With gravitational control and stimulating support, they ensure their team maintains the upper hand."
+      }
+    },
+    {
+      "agent_id": 26,
+      "name": "Vyse",
+      "role": "Sentinel",
+      "role_icon": "https://res.cloudinary.com/dwgsvtusk/image/upload/v1736895961/Sentinel_daqzlf.png",
+      "abilities": [
+        {
+          "icon": "https://res.cloudinary.com/dwgsvtusk/image/upload/v1736895880/Razorvine_t3ynkd.png",
+          "name": "Razorvine",
+          "description": "EQUIP a nest of liquid metal. FIRE to launch. Upon landing, the nest becomes invisible. When activated, it expands into razorvine, slowing and damaging enemies who pass through.",
+          "category": "Basic",
+          "price": 150
+        },
+        {
+          "icon": "https://res.cloudinary.com/dwgsvtusk/image/upload/v1736895880/Arc_Rose_jkualm.png",
+          "name": "Arc Rose",
+          "description": "EQUIP an Arc Rose. FIRE to place a stealthed Arc Rose on a surface. REUSE to blind all players looking at it. The Arc Rose can be picked up and redeployed.",
+          "category": "Signature",
+          "price": 0
+        },
+        {
+          "icon": "https://res.cloudinary.com/dwgsvtusk/image/upload/v1736895880/Shear_kjiaee.png",
+          "name": "Shear",
+          "description": "EQUIP filaments of liquid metal. FIRE to place a hidden wall trap. When an enemy crosses, an indestructible wall bursts from the ground behind them, blocking their retreat.",
+          "category": "Basic",
+          "price": 200
+        },
+        {
+          "icon": "https://res.cloudinary.com/dwgsvtusk/image/upload/v1736895880/Steel_Garden_jkn6ry.png",
+          "name": "Steel Garden",
+          "description": "EQUIP a device that, upon activation, creates a large area of razorvine, severely damaging and slowing enemies within. The area persists for a duration, controlling space effectively.",
+          "category": "Ultimate",
+          "points": 8
+        }
+      ],
+      "origin": "Unknown",
+      "release_patch": "9.02",
+      "profile_icon": "https://res.cloudinary.com/dwgsvtusk/image/upload/v1736895882/Vyse-headshot_gvh85g.png",
+      "profile_image": "https://res.cloudinary.com/dwgsvtusk/image/upload/v1736713077/Vyse_nz43nc.png",
+      "gallery": [],
+      "story": {
+        "agent": "Vyse",
+        "origin": "Unknown",
+        "background": {
+          "formerProfession": "Cybersecurity Expert",
+          "militaryService": "South Korean Cyber Command",
+          "corporateService": "Kingdom Corporation R&D (former)",
+          "keyRelationships": [
+            {
+              "name": "Killjoy",
+              "relationship": "Technological rival",
+              "impact": "Competing approaches to security technology"
+            },
+            {
+              "name": "Cypher",
+              "relationship": "Information ally",
+              "impact": "Share surveillance methods and intel"
+            }
+          ]
+        },
+        "valiantProtocol": {
+          "role": "Digital Sentinel",
+          "coFounders": [],
+          "leadershipStyle": "Methodical and analytical, securing areas through digital and physical means",
+          "notableEvent": "Prevented a catastrophic data breach in Kingdom's Radianite research database"
+        },
+        "conflicts": [
+          {
+            "name": "Seoul Digital Siege",
+            "location": "Seoul",
+            "threat": "Digital terrorism",
+            "opposingForce": "Hacktivist collective",
+            "actionTaken": "Deployed countermeasures to neutralize network attacks while protecting critical infrastructure"
+          }
+        ],
+        "currentRole": {
+          "position": "Security Systems Specialist",
+          "duties": [
+            "Digital area denial",
+            "Enemy ability disruption",
+            "Surveillance and intelligence gathering"
+          ]
+        },
+        "traits": {
+          "strengths": [
+            "Analytical",
+            "Decisive",
+            "Forward-thinking",
+            "Adaptive"
+          ],
+          "values": ["Security", "Innovation", "Control"]
+        },
+        "digitalArsenal": "Combines cutting-edge technology with Radianite-enhanced digital systems to control and secure battlefields",
+        "summary": "Vyse fortifies the battlefield with adaptive technological barriers while disrupting enemy systems. With an arsenal of digital countermeasures, she ensures no opponent's abilities go unchecked."
+      }
+    },
+    {
+      "agent_id": 27,
+      "name": "Tejo",
+      "role": "Initiator",
+      "role_icon": "https://res.cloudinary.com/dwgsvtusk/image/upload/v1736895962/Initiator_sb01ku.png",
+      "abilities": [
+        {
+          "icon": "https://res.cloudinary.com/dwgsvtusk/image/upload/v1736895877/Guided_Salvo_sjnd8j.png",
+          "name": "Guided Salvo",
+          "description": "EQUIP an AR targeting system. FIRE to select up to two target locations on the map. ALT FIRE to launch missiles that autonomously navigate to target locations, detonating on arrival.",
+          "category": "Signature",
+          "price": 0
+        },
+        {
+          "icon": "https://res.cloudinary.com/dwgsvtusk/image/upload/v1736895878/Stealth_Drone_xaxead.png",
+          "name": "Stealth Drone",
+          "description": "EQUIP a stealth drone. FIRE to deploy the drone forward and assume direct control of its movement. FIRE again to trigger a pulse that suppresses and reveals enemies hit.",
+          "category": "Basic",
+          "price": 300
+        },
+        {
+          "icon": "https://res.cloudinary.com/dwgsvtusk/image/upload/v1736895877/Special_Delivery_tl2ukc.png",
+          "name": "Special Delivery",
+          "description": "EQUIP a sticky grenade. FIRE to launch it; the grenade sticks to the first surface it hits and explodes, concussing any targets caught in the blast. ALT FIRE to launch the grenade with a single bounce.",
+          "category": "Basic",
+          "price": 300
+        },
+        {
+          "icon": "https://res.cloudinary.com/dwgsvtusk/image/upload/v1736895877/Armageddon_f1yxfs.png",
+          "name": "Armageddon",
+          "description": "EQUIP a tactical strike targeting map. FIRE to select the origin point of the strike. FIRE again to set the end point and launch the attack, unleashing a wave of explosions along the strike path.",
+          "category": "Ultimate",
+          "points": 7
+        }
+      ],
+      "origin": "Colombia",
+      "release_patch": "10.00",
+      "profile_icon": "https://res.cloudinary.com/dwgsvtusk/image/upload/v1736895881/Tejo-headshot_xgqgzb.png",
+      "profile_image": "https://res.cloudinary.com/dwgsvtusk/image/upload/v1736713076/Tejo_bdgtnh.png",
+      "gallery": [],
+      "story": {
+        "agent": "Tejo",
+        "origin": "Colombia",
+        "background": {
+          "formerProfession": "Tech Specialist",
+          "militaryService": "N/A",
+          "corporateService": "N/A",
+          "keyRelationships": [
+            {
+              "name": "Waylay",
+              "relationship": "Longtime friend and mentor",
+              "impact": "Recruited Waylay to the VALORANT Protocol"
+            },
+            {
+              "name": "Killjoy",
+              "relationship": "Tech collaborator",
+              "impact": "Shares expertise in advanced weaponry and drone tech"
+            }
+          ]
+        },
+        "valiantProtocol": {
+          "role": "Tech-Driven Aggressor",
+          "coFounders": [],
+          "leadershipStyle": "Bold and tactical, overwhelming enemies with advanced tech",
+          "notableEvent": "Led an assault to secure a Radianite facility using precision missile strikes"
+        },
+        "conflicts": [
+          {
+            "name": "Bogotá Blitz",
+            "location": "Bogotá",
+            "threat": "Radianite facility takeover",
+            "opposingForce": "Rogue mercenaries",
+            "actionTaken": "Deployed drones and missiles to neutralize the threat and secure the facility"
+          }
+        ],
+        "currentRole": {
+          "position": "Missile Duelist",
+          "duties": [
+            "Controls areas with guided missile strikes",
+            "Gathers intel and suppresses enemies with stealth drones",
+            "Disrupts enemy positions with concussive grenades"
+          ]
+        },
+        "traits": {
+          "strengths": ["Tactical", "Innovative", "Aggressive", "Precise"],
+          "values": ["Precision", "Technology", "Dominance"]
+        },
+        "missileArsenal": "Deploys advanced missile and drone technology to dominate and disrupt enemies with precision",
+        "summary": "Tejo is a tech-savvy duelist from Colombia whose missile-based arsenal and stealth drones overwhelm enemies, securing sites with explosive precision and tactical flair."
+      }
+    },
+    {
+      "agent_id": 28,
+      "name": "Waylay",
+      "role": "Duelist",
+      "role_icon": "https://res.cloudinary.com/dwgsvtusk/image/upload/v1736895962/Duelist_o6snmb.png",
+      "abilities": [
+        {
+          "icon": "https://res.cloudinary.com/dwgsvtusk/image/upload/v1745577583/Saturate_kkirpa.webp",
+          "name": "Saturate",
+          "description": "INSTANTLY throw a cluster of light that explodes upon contact with the ground, HINDERING nearby players with a powerful movement and weapon slow.",
+          "category": "Basic",
+          "price": 300
+        },
+        {
+          "icon": "https://res.cloudinary.com/dwgsvtusk/image/upload/v1745577581/Lightspeed_zlynbw.webp",
+          "name": "Light Speed",
+          "description": "EQUIP to prepare for a burst of speed. FIRE to dash forward twice, with the first dash able to go upward. ALT FIRE to dash once. Only the first dash can send you upward.",
+          "category": "Basic",
+          "price": 300
+        },
+        {
+          "icon": "https://res.cloudinary.com/dwgsvtusk/image/upload/v1745577590/Refract_mb6cvi.webp",
+          "name": "Refract",
+          "description": "INSTANTLY create a beacon of light on the floor. REACTIVATE to speed back to the beacon as a mote of pure light, becoming invulnerable during travel.",
+          "category": "Signature",
+          "price": 0
+        },
+        {
+          "icon": "https://res.cloudinary.com/dwgsvtusk/image/upload/v1745577586/Convergent_Paths_tdhhrt.webp",
+          "name": "Convergent Paths",
+          "description": "EQUIP to focus your prismatic power. FIRE to create an afterimage that projects a beam of light. After a brief delay, gain a speed boost as the beam expands, HINDERING enemies with movement and weapon slow.",
+          "category": "Ultimate",
+          "points": 8
+        }
+      ],
+      "origin": "Thailand",
+      "release_patch": "10.04",
+      "profile_icon": "https://res.cloudinary.com/dwgsvtusk/image/upload/v1745577604/Waylay_icon_rd6ugc.webp",
+      "profile_image": "https://res.cloudinary.com/dwgsvtusk/image/upload/v1745577608/Waylay_Artwork_Full_codx4p.webp",
+      "gallery": [],
+      "story": {
+        "agent": "Waylay",
+        "origin": "Thailand",
+        "background": {
+          "formerProfession": "Unknown, Radiant",
+          "militaryService": "N/A",
+          "corporateService": "N/A",
+          "keyRelationships": [
+            {
+              "name": "Tejo",
+              "relationship": "Longtime friend and mentor",
+              "impact": "Recruited Waylay to the VALORANT Protocol"
+            },
+            {
+              "name": "Phoenix",
+              "relationship": "Training ally",
+              "impact": "Guides Phoenix’s emotional and tactical growth"
+            }
+          ]
+        },
+        "valiantProtocol": {
+          "role": "Space-Taking Duelist",
+          "coFounders": [],
+          "leadershipStyle": "Strict yet caring, mentoring younger agents with tactical discipline",
+          "notableEvent": "Reinforced a VALORANT Protocol mission in Bangkok, securing a critical site"
+        },
+        "conflicts": [
+          {
+            "name": "Bangkok Breach",
+            "location": "Bangkok",
+            "threat": "Interdimensional incursion targeting Radianite",
+            "opposingForce": "Unknown enemy operatives",
+            "actionTaken": "Used light-based abilities to outmaneuver and disrupt enemy forces"
+          }
+        ],
+        "currentRole": {
+          "position": "Prismatic Aggressor",
+          "duties": [
+            "Secures sites with rapid dashes and hindering debuffs",
+            "Disrupts enemies with light-based utility",
+            "Escapes danger with invulnerable teleportation"
+          ]
+        },
+        "traits": {
+          "strengths": ["Agile", "Disruptive", "Tactical", "Mentoring"],
+          "values": ["Speed", "Discipline", "Teamwork"]
+        },
+        "prismaticArsenal": "Transforms into light to dash, disrupt, and hinder enemies with prismatic energy",
+        "summary": "Waylay is a radiant duelist from Thailand whose light-based abilities and high mobility allow her to dominate sites and mentor her team, striking with precision and escaping in a flash."
+      }
+    }
+  ]
+}
